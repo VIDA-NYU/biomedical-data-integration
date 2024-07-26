@@ -30,6 +30,7 @@ from bdikit.mapping_algorithms.column_mapping.algorithms import (
     GPTSchemaMatcher,
     ContrastiveLearningSchemaMatcher,
     TwoPhaseSchemaMatcher,
+    MaxValSimSchemaMatcher,
 )
 from bdikit.mapping_algorithms.value_mapping.value_mappers import ValueMapper
 from bdikit.models.contrastive_learning.cl_api import (
@@ -69,6 +70,7 @@ class SchemaMatchers(Enum):
     GPT = ("gpt", GPTSchemaMatcher)
     CT_LEARGNING = ("ct_learning", ContrastiveLearningSchemaMatcher)
     TWO_PHASE = ("two_phase", TwoPhaseSchemaMatcher)
+    MAX_VAL_SIM = ("max_val_sim", MaxValSimSchemaMatcher)
 
     def __init__(self, method_name: str, method_class: Type[BaseSchemaMatcher]):
         self.method_name = method_name

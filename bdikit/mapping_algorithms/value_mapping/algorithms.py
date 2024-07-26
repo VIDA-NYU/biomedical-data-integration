@@ -63,7 +63,7 @@ class PolyFuzzValueMatcher(BaseValueMatcher):
             target_value = row["To"]
             similarity = row["Similarity"]
             if similarity >= self.threshold:
-                matches.append((source_value, target_value, similarity))
+                matches.append(ValueMatch(source_value, target_value, similarity))
 
         return matches
 
@@ -204,7 +204,7 @@ class GPTValueMatcher(BaseValueMatcher):
                 target_value = response_dict["term"]
                 score = float(response_dict["score"])
                 if target_value in target_values_set and score >= self.threshold:
-                    matches.append((source_value, target_value, score))
+                    matches.append(ValueMatch(source_value, target_value, score))
             except:
                 print(
                     f'Errors parsing response for "{source_value}": {response_message}'
@@ -250,7 +250,7 @@ class AutoFuzzyJoinValueMatcher(BaseValueMatcher):
                     title_r = row["title_r"]
                     similarity = ratio(title_l, title_r)
                     if similarity >= self.threshold:
-                        matches.append((title_l, title_r, similarity))
+                        matches.append(ValueMatch(title_l, title_r, similarity))
         except Exception as e:
             return matches
         return matches
