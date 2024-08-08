@@ -17,7 +17,7 @@ from typing import (
 import itertools
 import pandas as pd
 import numpy as np
-from bdikit.utils import get_gdc_data, get_gdc_metadata
+from bdikit.utils import get_gdc_data, get_gdc_metadata, get_gdc_dataframe
 from bdikit.mapping_algorithms.column_mapping.algorithms import (
     BaseSchemaMatcher,
     SimFloodSchemaMatcher,
@@ -52,7 +52,7 @@ from bdikit.mapping_algorithms.value_mapping.value_mappers import (
 )
 
 
-GDC_DATA_PATH = join(dirname(__file__), "./resource/gdc_table.csv")
+# GDC_DATA_PATH = join(dirname(__file__), "./resource/gdc_table.csv")
 DEFAULT_VALUE_MATCHING_METHOD = "tfidf"
 DEFAULT_SCHEMA_MATCHING_METHOD = "coma"
 
@@ -136,7 +136,8 @@ def _load_table_for_standard(name: str) -> pd.DataFrame:
     GDC standard is supported.
     """
     if name == "gdc":
-        return pd.read_csv(GDC_DATA_PATH)
+        # return pd.read_csv(GDC_DATA_PATH)
+        return get_gdc_dataframe()
     else:
         raise ValueError(f"The {name} standard is not supported")
 
@@ -174,6 +175,8 @@ def top_matches(
     top_k_matches = topk_matcher.get_recommendations(
         selected_columns, target=target_table, top_k=top_k
     )
+    print(f"Columns: {source.columns}")
+    print(f"Topk matches: {top_k_matches}")
 
     dfs = []
     for match in top_k_matches:
@@ -299,7 +302,7 @@ def match_values(
         target_domain = get_gdc_data(column_names)
     elif isinstance(target, pd.DataFrame):
         target_domain = {
-            column_name: target[column_name].unique().tolist()
+            column_name: target[column_name].dropna().unique().tolist()
             for column_name in target.columns
         }
     else:
@@ -372,7 +375,7 @@ def _match_values(
         if target_domain_list is None or len(target_domain_list) == 0:
             continue
 
-        unique_values = dataset[source_column].unique()
+        unique_values = dataset[source_column].dropna().unique()
         if _skip_values(unique_values):
             continue
 

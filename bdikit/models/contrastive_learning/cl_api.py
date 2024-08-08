@@ -51,7 +51,7 @@ class ContrastiveLearningAPI:
         model = BarlowTwinsSimCLR(scale_loss, lambd, device=self.device, lm=lm)
         model = model.to(self.device)
         model.load_state_dict(ckpt["model"])
-
+        model.eval()
         return model
 
     def get_embeddings(self, table: pd.DataFrame) -> List[np.ndarray]:

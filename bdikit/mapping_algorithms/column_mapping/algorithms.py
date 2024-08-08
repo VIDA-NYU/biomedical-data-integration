@@ -183,6 +183,8 @@ class ContrastiveLearningSchemaMatcher(BaseSchemaMatcher):
         topk_matches = self.topk_matcher.get_recommendations(
             dataset, global_table, top_k=1
         )
+        print(f"Columns: {dataset.columns}")
+        print(f"Topk matches: {topk_matches}")
         matches = {}
         for column, top_k_match in zip(dataset.columns, topk_matches):
             candidate = top_k_match["top_k_columns"][0][0]
