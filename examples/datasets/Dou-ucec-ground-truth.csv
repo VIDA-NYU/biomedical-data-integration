@@ -1,0 +1,180 @@
+source,target
+idx,
+Proteomics_Participant_ID,Case_id
+Case_excluded,Case_excluded
+Proteomics_TMT_batch,Batch
+Proteomics_TMT_plex,Plex
+Proteomics_TMT_channel,ReporterName
+Proteomics_Parent_Sample_IDs,
+Proteomics_Aliquot_ID,Aliquot_ID
+Proteomics_Tumor_Normal,Group
+Proteomics_OCT,
+Country,Participant_country
+Histologic_Grade_FIGO,Histologic_grade
+Myometrial_invasion_Specify,"Myometrial_invasion,Myometrial_invasion_present_specify"
+Histologic_type,Histologic_Type
+Treatment_naive,Cancer_history_history_of_any_treatment
+Tumor_purity,ABSOLUTE_tumor_purity
+Path_Stage_Primary_Tumor-pT,Pathologic_staging_primary_tumor_pt
+Path_Stage_Reg_Lymph_Nodes-pN,Pathologic_staging_regional_lymph_nodes_pn
+Clin_Stage_Dist_Mets-cM,Clinical_staging_distant_metastasis_cm
+Path_Stage_Dist_Mets-pM,
+tumor_Stage-Pathological,Tumor_stage_pathological
+FIGO_stage,
+LVSI,
+BMI,BMI
+Age,Age
+Diabetes,Diabetes
+Race,Race
+Ethnicity,Ethnicity
+Gender,Sex
+Tumor_Site,Tumor_site
+Tumor_Site_Other,Tumor_site_other
+Tumor_Focality,Tumor_focality
+Tumor_Size_cm,Tumor_size_cm
+Estrogen_Receptor,Ancillary_studies_estrogen_receptor
+Estrogen_Receptor_%,
+Progesterone_Receptor,Ancillary_studies_progesterone_receptor
+Progesterone_Receptor_%,
+MLH1,Ancillary_studies_mlh1
+MLH2,
+MSH6,Ancillary_studies_msh6
+PMS2,Ancillary_studies_pms2
+p53,Ancillary_studies_p53
+Other_IHC_specify,
+MLH1_Promoter_Hypermethylation,Ancillary_studies_mlh1_promoter_hypermethylation
+Num_full_term_pregnancies,Donor_information_number_of_full_term_pregnancies
+EPIC_Bcells,
+EPIC_CAFs,
+EPIC_CD4_Tcells,
+EPIC_CD8_Tcells,
+EPIC_Endothelial,
+EPIC_Macrophages,
+EPIC_NKcells,
+EPIC_otherCells,
+CIBERSORT_B _cells _naive,Cibersort_B_cell_naive
+CIBERSORT_B _cells _memory,Cibersort_B_cell_memory
+CIBERSORT_Plasma _cells,Cibersort_B_cell_plasma
+CIBERSORT_T _cells _CD8,Cibersort_T_cell_CD8+
+CIBERSORT_T _cells _CD4 _naive,Cibersort_T_cell_CD4+_naive
+CIBERSORT_T _cells _CD4 _memory _resting,Cibersort_T_cell_CD4+_memory_resting
+CIBERSORT_T _cells _CD4 _memory _activated,Cibersort_T_cell_CD4+_memory_activated
+CIBERSORT_T _cells _follicular _helper,Cibersort_T_cell_follicular_helper
+CIBERSORT_T _cells _regulatory _(Tregs),Cibersort_T_cell_regulatory_(Tregs)
+CIBERSORT_T _cells _gamma _delta,Cibersort_T_cell_gamma_delta
+CIBERSORT_NK _cells _resting,Cibersort_NK_cell_resting
+CIBERSORT_NK _cells _activated,Cibersort_NK_cell_activated
+CIBERSORT_Monocytes,Cibersort_Monocyte
+CIBERSORT_Macrophages _M0,Cibersort_Macrophage_M0
+CIBERSORT_Macrophages _M1,Cibersort_Macrophage_M1
+CIBERSORT_Macrophages _M2,Cibersort_Macrophage_M2
+CIBERSORT_Dendritic _cells _resting,Cibersort_Myeloid_dendritic_cell_resting
+CIBERSORT_Dendritic _cells _activated,Cibersort_Myeloid_dendritic_cell_activated
+CIBERSORT_Mast _cells _resting,Cibersort_Mast_cell_resting
+CIBERSORT_Mast _cells _activated,Cibersort_Mast_cell_activated
+CIBERSORT_Eosinophils,Cibersort_Eosinophil
+CIBERSORT_Neutrophils,Cibersort_Neutrophil
+CIBERSORT_Absolute _score,
+ESTIMATE_StromalScore,Estimate_StromalScore
+ESTIMATE_ImmuneScore,Estimate_ImmuneScore
+ESTIMATE_ESTIMATEScore,Estimate_ESTIMATEScore
+Stemness_score,
+ER_ESR1,
+PR_PGR,
+Pathway_activity_EGFR,
+Pathway_activity_Hypoxia,
+Pathway_activity_JAK.STAT,
+Pathway_activity_MAPK,
+Pathway_activity_NFkB,
+Pathway_activity_PI3K,
+Pathway_activity_TGFb,
+Pathway_activity_TNFa,
+Pathway_activity_Trail,
+Pathway_activity_VEGF,
+Pathway_activity_p53,
+TP53_ATM,
+TP53_CHEK2,
+TP53_MDM4,
+TP53_RPS6KA3,
+TP53_TP53,
+TP53_pathway,
+PI3K_AKT1,
+PI3K_AKT2,
+PI3K_AKT3,
+PI3K_DEPDC5,
+PI3K_DEPTOR,
+PI3K_INPP4B,
+PI3K_MAPKAP1,
+PI3K_MLST8,
+PI3K_MTOR,
+PI3K_NPRL2,
+PI3K_NPRL3,
+PI3K_PDK1,
+PI3K_PIK3CA,
+PI3K_PIK3CB,
+PI3K_PIK3R1,
+PI3K_PIK3R2,
+PI3K_PPP2R1A,
+PI3K_PTEN,
+PI3K_RHEB,
+PI3K_RICTOR,
+PI3K_RPS6,
+PI3K_RPS6KB1,
+PI3K_RPTOR,
+PI3K_STK11,
+PI3K_TSC1,
+PI3K_TSC2,
+PI3K_pathway,
+HRD_BRCA1,
+HRD_BRCA2,
+HRD_BRCA1_or_BRCA2,
+CNV_DEL,
+CNV_AMP,
+CNV_class,CNV_status
+CNV_idx,
+CNV_1q_DEL,
+CNV_3q_DEL,
+CNV_4q_DEL,
+CNV_1q_AMP,
+CNV_3q_AMP,
+CNV_4q_AMP,
+Purity_Immune,
+Purity_Cancer,
+Purity_Stroma,
+MSI_status,MSI_status
+POLE_subtype,POLE
+JAK1_MS_INDEL,
+JAK1_Mutation,
+Log2_variant_per_Mbp,
+Log2_SNP_per_Mbp,
+Log2_INDEL_per_Mbp,
+Log2_variant_total,
+Log2_SNP_total,
+Log2_INDEL_total,
+Genomics_subtype,Genomic_subtype
+Mutation_signature_C>A,
+Mutation_signature_C>G,
+Mutation_signature_C>T,
+Mutation_signature_T>C,
+Mutation_signature_T>A,
+Mutation_signature_T>G,
+WXS_normal_sample_type,
+WXS_normal_filename,
+WXS_normal_UUID,
+WXS_tumor_sample_type,
+WXS_tumor_filename,
+WXS_tumor_UUID,
+WGS_normal_sample_type,
+WGS_normal_UUID,
+WGS_tumor_sample_type,
+WGS_tumor_UUID,
+RNAseq_R1_sample_type,
+RNAseq_R1_filename,
+RNAseq_R1_UUID,
+RNAseq_R2_sample_type,
+RNAseq_R2_filename,
+RNAseq_R2_UUID,
+miRNAseq_sample_type,
+miRNAseq_UUID,
+Methylation_available,
+Methylation_quality,
