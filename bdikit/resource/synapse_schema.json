@@ -1,0 +1,3025 @@
+{
+    "NF1Variant": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Data": {
+        "column_description": "What the data (file) contains.",
+        "value_data": {}
+    },
+    "OrganismSubstance": {
+        "column_description": "This preferred root in the UBERON ontology is meant to cover organism-produced substances (bodily secretions and excreta) commonly used as assay specimens.",
+        "value_data": {}
+    },
+    "BiologicalProcess": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "WHOPerformanceStatusScores": {
+        "column_description": "//www.ncbi.nlm.nih.gov/books/NBK97482/",
+        "value_data": {}
+    },
+    "ConcentrationUnit": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Percentiles-2SD": {
+        "column_description": "Enumerations corresponding to 3 bins using 2 standard deviations as a cutoff.",
+        "value_data": {}
+    },
+    "Tissue": {
+        "column_description": "Tissue is a group of cells that have similar structure and that function together as a unit.",
+        "value_data": {}
+    },
+    "Cell": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Genotype": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "TimeUnit": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Measurement": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Material": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "TransplantationType": {
+        "column_description": "Type of transplantation involved in the experiment, derived from MESH",
+        "value_data": {
+            "Allograft": "",
+            "Xenograft": "",
+            "Autograft": "",
+            "Isograft": ""
+        }
+    },
+    "CellLineModel": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Resource": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "MouseModel": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Institution": {
+        "column_description": "Link to affiliated institution.",
+        "value_data": {
+            "AlbanyMedicalCollege": "",
+            "AlbertEinsteinCollegeofMedicine": "",
+            "AlliantInternationalUniversity": "",
+            "AmericanUniversity": "",
+            "ArizonaStateUniversity": "",
+            "AuburnUniversity,Auburn": "",
+            "AugustaUniversity": "",
+            "BaylorCollegeofMedicine": "",
+            "BaylorUniversity": "",
+            "BoiseStateUniversity": "",
+            "BostonCollege": "",
+            "BostonUniversity": "",
+            "BowlingGreenStateUniversity": "",
+            "BrandeisUniversity": "",
+            "BrighamYoungUniversity,Provo": "",
+            "BrownUniversity": "",
+            "CUNY,CityCollege": "",
+            "CUNY,HunterCollege": "",
+            "CUNY,JohnJayCollegeofCriminalJustice": "",
+            "CUNY,QueensCollege": "",
+            "CaliforniaInstituteofTechnology": "",
+            "CaliforniaPolytechnicStateUniversity,SanLuisObispo": "",
+            "CaliforniaStateUniversity,LongBeach": "",
+            "CaliforniaStateUniversity,Northridge": "",
+            "CaliforniaStateUniversity,Sacramento": "",
+            "CarnegieMellonUniversity": "",
+            "CaseWesternReserveUniversity": "",
+            "CatholicUniversityofAmerica": "",
+            "CentralMichiganUniversity": "",
+            "ChapmanUniversity": "",
+            "Children'sHospitalofPhiladelphia": "",
+            "Children'sNational": "",
+            "CincinnatiChildren'sHospitalMedicalCenter": "",
+            "CityofHope": "",
+            "ClarksonUniversity": "",
+            "ClemsonUniversity": "",
+            "ClevelandStateUniversity": "",
+            "ColdSpringHarborLaboratory": "",
+            "ColoradoStateUniversity,FortCollins": "",
+            "ColumbiaU.intheCityofNewYork": "",
+            "CornellUniversity": "",
+            "CreightonUniversity": "",
+            "Dana-FarberCancerInstitute": "",
+            "DartmouthCollege": "",
+            "DelawareStateUniversity": "",
+            "DrexelUniversity": "",
+            "DukeUniversity": "",
+            "DuquesneUniversity": "",
+            "EastCarolinaUniversity": "",
+            "EastTennesseeStateUniversity": "",
+            "EasternVirginiaMedicalSchool": "",
+            "EmoryUniversity": "",
+            "EutropicsPharmaceuticals": "",
+            "FloridaA&MUniversity": "",
+            "FloridaAtlanticUniversity": "",
+            "FloridaInstituteofTechnology": "",
+            "FloridaInternationalUniversity": "",
+            "FloridaStateUniversity": "",
+            "FordhamUniversity": "",
+            "GeorgeMasonUniversity": "",
+            "GeorgeWashingtonUniversity": "",
+            "GeorgetownUniversity": "",
+            "GeorgiaInstituteofTechnology": "",
+            "GeorgiaStateUniversity": "",
+            "HarvardUniversity": "",
+            "HenriMondorHospitalParisEstCreteilFrance": "",
+            "HowardUniversity": "",
+            "HumboldtStateUniversity": "",
+            "IcahnSchoolofMedicineatMountSinai": "",
+            "IdahoStateUniversity": "",
+            "IllinoisInstituteofTechnology": "",
+            "IllinoisStateUniversity": "",
+            "IndianaUniversity": "",
+            "IndianaUniversity,Bloomington": "",
+            "IndianaUniversity-PurdueUniversityatIndianapolis": "",
+            "Institutd'Investigaci\u00f3Biom\u00e9dicadeBellvitge": "",
+            "Institutd'Investigaci\u00f3enCi\u00e8nciesdelaSalutGermansTriasiPujol": "",
+            "Inserm": "",
+            "IMBA-InstituteofMolecularBiotechnology": "",
+            "IowaStateUniversity": "",
+            "JAX": "",
+            "JacksonStateUniversity": "",
+            "JohnsHopkinsUniversity": "",
+            "KansasStateUniversity": "",
+            "KentStateUniversity": "",
+            "LangstonUniversity": "",
+            "LehighUniversity": "",
+            "LeibnizInstituteonAging\u2013FritzLipmannInstitute": "",
+            "LomaLindaUniversity": "",
+            "LongIslandUniversity": "",
+            "LouisianaStateUniversity,BatonRouge": "",
+            "LouisianaStateUniversity,HealthSciencesCenter,NewOrleans": "",
+            "LouisianaStateUniversity,HealthSciencesCenter,Shreveport": "",
+            "LouisianaTechUniversity": "",
+            "LoyolaUniversity,Chicago": "",
+            "L\u2019InsermdansParisetl\u2019\u00cele-de-FranceCentreNord": "",
+            "MarquetteUniversity": "",
+            "MarshallUniversity": "",
+            "MassachusettsGeneralHospital": "",
+            "MassachusettsInstituteofTechnology": "",
+            "MayoClinic": "",
+            "MayoClinicinArizona": "",
+            "MedicalCollegeofWisconsin": "",
+            "MedicalUniversityofSouthCarolina": "",
+            "MemorialSloanKetteringCancerCenter": "",
+            "MercerUniversity": "",
+            "MiamiUniversity": "",
+            "MichiganStateUniversity": "",
+            "MichiganTechnologicalUniversity": "",
+            "MississippiStateUniversity": "",
+            "MissouriUniversityofScienceandTechnology": "",
+            "MontanaStateUniversity,Bozeman": "",
+            "MontclairStateUniversity": "",
+            "MorehouseSchoolofMedicine": "",
+            "MorganStateUniversity": "",
+            "NCICenterforCancerResearch": "",
+            "NationalInstitutesofHealth": "",
+            "NewJerseyInstituteofTechnology": "",
+            "NewMexicoStateUniversity": "",
+            "NewYorkMedicalCollege": "",
+            "NewYorkUniversity": "",
+            "NorthCarolinaCentralUniversity": "",
+            "NorthCarolinaStateUniversity": "",
+            "NorthDakotaStateUniversity": "",
+            "NortheastOhioMedicalUniversity": "",
+            "NortheasternUniversity": "",
+            "NorthernArizonaUniversity": "",
+            "NorthernIllinoisUniversity": "",
+            "NorthwesternUniversity": "",
+            "NovaSoutheasternUniversity": "",
+            "OhioStateUniversity": "",
+            "OhioUniversity": "",
+            "OklahomaStateUniversity,Stillwater": "",
+            "OregonHealthandScienceUniversity": "",
+            "OregonStateUniversity": "",
+            "PacificNorthwestNationalLaboratory": "",
+            "PenningtonBiomedicalResearchCenter": "",
+            "PennsylvaniaStateUniversity,UniversityParkandHersheyMedicalCenter": "",
+            "PortlandStateUniversity": "",
+            "PrairieViewA&MUniversity": "",
+            "PrincetonUniversity": "",
+            "PurdueUniversity,WestLafayette": "",
+            "PusanNationalUniversity": "",
+            "RensselaerPolytechnicInstitute": "",
+            "RiceUniversity": "",
+            "RochesterInstituteofTechnology": "",
+            "RockefellerUniversity": "",
+            "RosalindFranklinUniversityofMedicineandScience": "",
+            "RoyalNorthShoreHospital": "",
+            "RushUniversity": "",
+            "RutgersStateUniversityofNewJersey,NewBrunswick": "",
+            "RutgersStateUniversityofNewJersey,Newark": "",
+            "SUNY,BinghamtonUniversity": "",
+            "SUNY,DownstateHealthSciencesUniversity": "",
+            "SageBionetworks": "",
+            "SaintLouisUniversity": "",
+            "SanDiegoStateUniversity": "",
+            "SanFranciscoStateUniversity": "",
+            "SanJoseStateUniversity": "",
+            "ScrippsResearchInstitute": "",
+            "SeattleChildren's": "",
+            "SouthDakotaStateUniversity": "",
+            "SouthernIllinoisUniversity,Carbondale": "",
+            "SouthernIllinoisUniversity,Edwardsville": "",
+            "SouthernMethodistUniversity": "",
+            "StanfordUniversity": "",
+            "StateUniversityofNewYorkPolytechnicInstitute": "",
+            "StateUniversityofNewYork,Albany": "",
+            "StateUniversityofNewYork,Buffalo": "",
+            "StateUniversityofNewYork,UpstateMedicalUniversity": "",
+            "StevensInstituteofTechnology": "",
+            "StonyBrookUniversity": "",
+            "SyracuseUniversity": "",
+            "TempleUniversity": "",
+            "TennesseeStateUniversity": "",
+            "TennesseeTechnologicalUniversity": "",
+            "TexasA&MUniversity": "",
+            "TexasChristianUniversity": "",
+            "TexasStateUniversity": "",
+            "TexasTechUniversity": "",
+            "TexasTechUniversityofHealthSciencesCenter": "",
+            "ThomasJeffersonUniversity": "",
+            "TuftsUniversity": "",
+            "TulaneUniversity": "",
+            "TuskegeeUniversity": "",
+            "UniformedServicesUniversityoftheHealthSciences": "",
+            "UniversityCollegeofLondon": "",
+            "UniversityHealthNetwork": "",
+            "UniversityofAkron": "",
+            "UniversityofAlabama": "",
+            "UniversityofAlabama,Birmingham": "",
+            "UniversityofAlabama,Huntsville": "",
+            "UniversityofAlabama,Tuscaloosa": "",
+            "UniversityofAlaska,Anchorage": "",
+            "UniversityofAlaska,Fairbanks": "",
+            "UniversityofArizona": "",
+            "UniversityofArkansasforMedicalSciences": "",
+            "UniversityofArkansas,Fayetteville": "",
+            "UniversityofBaltimore": "",
+            "UniversityofCalifornia,Berkeley": "",
+            "UniversityofCalifornia,Davis": "",
+            "UniversityofCalifornia,Irvine": "",
+            "UniversityofCalifornia,LosAngeles": "",
+            "UniversityofCalifornia,Merced": "",
+            "UniversityofCalifornia,Riverside": "",
+            "UniversityofCalifornia,SanDiego": "",
+            "UniversityofCalifornia,SanFrancisco": "",
+            "UniversityofCalifornia,SantaBarbara": "",
+            "UniversityofCalifornia,SantaCruz": "",
+            "UniversityofCambridge": "",
+            "UniversityofCentralFlorida": "",
+            "UniversityofChicago": "",
+            "UniversityofCincinnati": "",
+            "UniversityofColoradoBoulder": "",
+            "UniversityofColoradoDenverandAnschutzMedicalCampus": "",
+            "UniversityofConnecticut": "",
+            "UniversityofDayton": "",
+            "UniversityofDelaware": "",
+            "UniversityofDenver": "",
+            "UniversityofFlorida": "",
+            "UniversityofGeorgia": "",
+            "UniversityofGlasgow": "",
+            "UniversityofHawaii,Manoa": "",
+            "UniversityofHouston": "",
+            "UniversityofIdaho": "",
+            "UniversityofIllinois,Chicago": "",
+            "UniversityofIllinois,Urbana-Champaign": "",
+            "UniversityofIowa": "",
+            "UniversityofKansas": "",
+            "UniversityofKentucky": "",
+            "UniversityofLouisianaatLafayette": "",
+            "UniversityofLouisville": "",
+            "UniversityofMaine": "",
+            "UniversityofMaryland,BaltimoreCounty": "",
+            "UniversityofMaryland,EasternShore": "",
+            "UniversityofMassachusetts,Amherst": "",
+            "UniversityofMassachusetts,Boston": "",
+            "UniversityofMassachusetts,Dartmouth": "",
+            "UniversityofMassachusetts,Lowell": "",
+            "UniversityofMassachusetts,MedicalSchool": "",
+            "UniversityofMemphis": "",
+            "UniversityofMiami": "",
+            "UniversityofMichigan,AnnArbor": "",
+            "UniversityofMinnesota,Duluth": "",
+            "UniversityofMinnesota,TwinCities": "",
+            "UniversityofMississippi": "",
+            "UniversityofMissouri,Columbia": "",
+            "UniversityofMissouri,KansasCity": "",
+            "UniversityofMissouri,SaintLouis": "",
+            "UniversityofMontana,Missoula": "",
+            "UniversityofNebraska,Lincoln": "",
+            "UniversityofNebraska,MedicalCenter": "",
+            "UniversityofNebraska,Omaha": "",
+            "UniversityofNevada,LasVegas": "",
+            "UniversityofNevada,Reno": "",
+            "UniversityofNewHampshire": "",
+            "UniversityofNewMexico": "",
+            "UniversityofNewOrleans": "",
+            "UniversityofNorthCarolina,ChapelHill": "",
+            "UniversityofNorthCarolina,Charlotte": "",
+            "UniversityofNorthCarolina,Greensboro": "",
+            "UniversityofNorthCarolina,Wilmington": "",
+            "UniversityofNorthDakota": "",
+            "UniversityofNorthTexas,Denton": "",
+            "UniversityofNorthTexas,HealthScienceCenter": "",
+            "UniversityofNotreDame": "",
+            "UniversityofOklahoma": "",
+            "UniversityofOregon": "",
+            "UniversityofPennsylvania": "",
+            "UniversityofPittsburgh,Pittsburgh": "",
+            "UniversityofPlymouth": "",
+            "UniversityofPuertoRico,Mayaguez": "",
+            "UniversityofPuertoRico,MedicalSciencesCampus": "",
+            "UniversityofPuertoRico,RioPiedras": "",
+            "UniversityofRhodeIsland": "",
+            "UniversityofRochester": "",
+            "UniversityofSouthAlabama": "",
+            "UniversityofSouthCarolina,Columbia": "",
+            "UniversityofSouthDakota": "",
+            "UniversityofSouthFlorida,SaintPetersburg": "",
+            "UniversityofSouthFlorida,Tampa": "",
+            "UniversityofSouthernCalifornia": "",
+            "UniversityofSouthernMississippi": "",
+            "UniversityofTennessee,HealthScienceCenter": "",
+            "UniversityofTennessee,Knoxville": "",
+            "UniversityofTexasHealthScienceCenter,Houston": "",
+            "UniversityofTexasHealthScienceCenter,SanAntonio": "",
+            "UniversityofTexasHealthScienceCenter,Tyler": "",
+            "UniversityofTexasM.D.AndersonCancerCenter": "",
+            "UniversityofTexasMedicalBranchatGalveston": "",
+            "UniversityofTexasRioGrandeValley": "",
+            "UniversityofTexasSouthwesternMedicalCenter": "",
+            "UniversityofTexas,Arlington": "",
+            "UniversityofTexas,Austin": "",
+            "UniversityofTexas,Dallas": "",
+            "UniversityofTexas,ElPaso": "",
+            "UniversityofTexas,SanAntonio": "",
+            "UniversityofToledo": "",
+            "UniversityofTulsa": "",
+            "UniversityofTurku": "",
+            "UniversityofUtah": "",
+            "UniversityofVermont": "",
+            "UniversityofVirginia,Charlottesville": "",
+            "UniversityofWashington,Seattle": "",
+            "UniversityofWestFlorida": "",
+            "UniversityofWisconsin-Madison": "",
+            "UniversityofWisconsin-Milwaukee": "",
+            "UniversityofWyoming": "",
+            "Universit\u00e9Paris-EstCr\u00e9teil": "",
+            "UtahStateUniversity": "",
+            "VanAndelResearchInstitute": "",
+            "VanderbiltUniversity": "",
+            "VillanovaUniversity": "",
+            "VirginiaCommonwealthUniversity": "",
+            "VirginiaPolytechnicInstituteandStateUniversity": "",
+            "WakeForestUniversity": "",
+            "WashingtonStateUniversity": "",
+            "WashingtonUniversityinSt.Louis": "",
+            "WayneStateUniversity": "",
+            "WestVirginiaUniversity": "",
+            "WesternMichiganUniversity": "",
+            "WichitaStateUniversity": "",
+            "William&Mary": "",
+            "WorcesterPolytechnicInstitute": "",
+            "YaleUniversity": ""
+        }
+    },
+    "License": {
+        "column_description": "Link to a license or name of license applicable for the resource.",
+        "value_data": {}
+    },
+    "ProportionCoverage30x": {
+        "column_description": "Proportion of all reference bases for whole genome sequencing, or targeted bases for whole exome and targeted sequencing, that achieves 30X or greater coverage from Picard Tools",
+        "value_data": {}
+    },
+    "Description": {
+        "column_description": "Text describing a resource.",
+        "value_data": {}
+    },
+    "CompoundDoseUnit": {
+        "column_description": "A unit associated with the value(s) in compoundDose.",
+        "value_data": {}
+    },
+    "IsStranded": {
+        "column_description": "Whether or not the library is stranded (Yes; No)",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "GenomicReferenceLink": {
+        "column_description": "Link to genome reference data file used for alignment in processing workflow",
+        "value_data": {}
+    },
+    "ProgrammingLanguage": {
+        "column_description": "A computer programming language",
+        "value_data": {
+            "Python": "",
+            "R": "",
+            "MATLAB": "",
+            "Java": "",
+            "C": "",
+            "C++": "",
+            "C#": "",
+            "Javascript": "",
+            "Bash": ""
+        }
+    },
+    "SlideID": {
+        "column_description": "Unique identifier printed on the label of each Visium slide. The serial number starts with V followed by a number which can range between one through five and ends with a dash and a three digit number, such as 123.\n",
+        "value_data": {}
+    },
+    "SourceName": {
+        "column_description": "Intended for non-biological samples, tf the sample is a nanoparticle sample or some chemical substance not derived from a biological material,  the corresponding source name should refer to the starting sample that was modified by a protocol for the assay.\n",
+        "value_data": {}
+    },
+    "Mosaicism": {
+        "column_description": "Whether individual is mosaic.",
+        "value_data": {
+            "Mosaic": "",
+            "Notmosaic": "",
+            "Unknown": ""
+        }
+    },
+    "ReadPairOrientation": {
+        "column_description": "The relative orientation of the reads in a paired-end protocol",
+        "value_data": {
+            "Fr-firststrand": "",
+            "Inward": "",
+            "Matching": "",
+            "Outward": ""
+        }
+    },
+    "FileSize": {
+        "column_description": "Size of file in bytes.",
+        "value_data": {}
+    },
+    "DermalSchwannoma": {
+        "column_description": "Characterization of the manifestation of Dermal schwannoma.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "BenefactorId": {
+        "column_description": "The id of the resource from which access control is inherited.",
+        "value_data": {}
+    },
+    "SpinalSchwannoma": {
+        "column_description": "Characterization of the manifestation of Spinal schwannoma.",
+        "value_data": {
+            "Notimaged": "",
+            "Absentbyimaging": "",
+            "Single": "",
+            "Multiple": "",
+            "Unknown": ""
+        }
+    },
+    "AccessType": {
+        "column_description": "Indicates access type / possible procedures needed for access to the resource.",
+        "value_data": {
+            "PublicAccess": "",
+            "OpenAccess": "",
+            "ControlledAccess": "",
+            "PrivateAccess": ""
+        }
+    },
+    "SpinalNeurofibromas": {
+        "column_description": "Characterization of the manifestation of Spinal neurofibromas.",
+        "value_data": {
+            "Notimaged": "",
+            "Absent": "",
+            "Levels1-3": "",
+            "Alllevels": ""
+        }
+    },
+    "OpticGlioma": {
+        "column_description": "Characterization of the manifestation of Optic glioma.",
+        "value_data": {
+            "Absent": "",
+            "Present-asymptomatic": "",
+            "Present-symptomatic-nottreated": "",
+            "Present-symptomatic-treated": "",
+            "Unknown": ""
+        }
+    },
+    "CreatedOn": {
+        "column_description": "Refers to when the resource was created.",
+        "value_data": {}
+    },
+    "ProtocolPurpose": {
+        "column_description": "Brief description of the protocol purpose.",
+        "value_data": {}
+    },
+    "GrantDOI": {
+        "column_description": "Doi of a grant (e.g. in ProposalCentral) that can be associated with the entity.",
+        "value_data": {}
+    },
+    "BreastCancer": {
+        "column_description": "TBD",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "ReporterSubstance": {
+        "column_description": "A biological material (clone, oligo, etc.) on an array which will report on some biosequence or biosequences.",
+        "value_data": {}
+    },
+    "SlideVersion": {
+        "column_description": "Version of imaging slide used. Slide version is critical for the analysis of the sequencing data as different slides have different capture area layouts.",
+        "value_data": {
+            "V1": "",
+            "V2": "",
+            "V3": "",
+            "V4": ""
+        }
+    },
+    "ReporterGene": {
+        "column_description": "A gene which produces an easily assayed phenotype. Often used for expression studies of heterologous promoters.",
+        "value_data": {}
+    },
+    "Nf1Genotype": {
+        "column_description": "Genotype of NF1 gene in the biospecimen from which the data were derived, if known.",
+        "value_data": {
+            "-/-": "",
+            "+/-": "",
+            "+/+": "",
+            "Unknown": ""
+        }
+    },
+    "Diagnosis": {
+        "column_description": "Diagnosis for the individual given signs and symptoms. Use the most specific diagnosis term that applies.",
+        "value_data": {
+            "Neurofibromatosistype1": "",
+            "Schwannomatosis": "",
+            "NF2-relatedschwannomatosis": "",
+            "SMARCB1-relatedschwannomatosis": "",
+            "LZTR1-relatedschwannomatosis": "",
+            "22q-relatedschwannomatosis": "",
+            "Schwannomatosis-NOS": "",
+            "Schwannomatosis-NEC": "",
+            "SporadicSchwannoma": "",
+            "NoonanSyndrome": "",
+            "NotApplicable": ""
+        }
+    },
+    "TargetDepth": {
+        "column_description": "The targeted read depth prior to sequencing.",
+        "value_data": {}
+    },
+    "AccessRequirements": {
+        "column_description": "Statement describing access requirements for an entity.",
+        "value_data": {}
+    },
+    "Creator": {
+        "column_description": "An entity responsible for making the resource.",
+        "value_data": {}
+    },
+    "Age": {
+        "column_description": "A numeric value representing age of the individual. Use with `ageUnit`.",
+        "value_data": {}
+    },
+    "AgeUnit": {
+        "column_description": "A time unit that can be used with a given age value, e.g. years.",
+        "value_data": {
+            "Seconds": "",
+            "Minutes": "",
+            "Hours": "",
+            "Days": "",
+            "Weeks": "",
+            "Months": "",
+            "Years": ""
+        }
+    },
+    "IsCellLine": {
+        "column_description": "Whether or not sample source is a cell line (Yes; No)",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "LibraryPreparationMethod": {
+        "column_description": "Method by which library was prepared",
+        "value_data": {
+            "10x": "",
+            "CEL-seq": "",
+            "Drop-Seq": "",
+            "GTAC@WUSTLin-houseprep": "",
+            "IDTxGenExomeResearchPanel": "",
+            "IlluminaTruSeqDNANano": "",
+            "IlluminaTn5Transposase": "",
+            "IlluminaRibo-ZeroPlus": "",
+            "KAPAHyperPrepKitPCR-free": "",
+            "KAPARNAHyperPrepKitwithRiboErase(HMR)": "",
+            "KAPAmRNAHyperPrepKit": "",
+            "NEBNextmRNALibraryPrepReagentSetforIllumina": "",
+            "Omni-ATAC": "",
+            "QuantSeqFWDV2withUDI": "",
+            "Smart-seq2": "",
+            "Smart-seq4": "",
+            "TruSeq": "",
+            "TruSeqstandardtotalRNAlibrarykit": "",
+            "OxfordNanoporeDirectRNASequencingKit": "",
+            "QIAseqFXDNALibraryKit": "",
+            "Unknown": ""
+        }
+    },
+    "Publisher": {
+        "column_description": "An entity responsible for making the resource available.",
+        "value_data": {}
+    },
+    "AverageBaseQuality": {
+        "column_description": "Average base quality collected from samtools",
+        "value_data": {}
+    },
+    "Sex": {
+        "column_description": "Phenotypic expression of chromosomal makeup that defines a study subject as male, female, or other.",
+        "value_data": {
+            "Male": "",
+            "Female": "",
+            "Unknown": "",
+            "NotApplicable": ""
+        }
+    },
+    "CreatedBy": {
+        "column_description": "Refers to the user who created the resource.",
+        "value_data": {}
+    },
+    "OtherTumors": {
+        "column_description": "Characterization of the manifestation of other tumors.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "GenePerturbationType": {
+        "column_description": "Specific way in which a single gene was perturbed in a sample",
+        "value_data": {}
+    },
+    "PainStatus": {
+        "column_description": "Pain status rating.",
+        "value_data": {
+            "Notaproblem": "",
+            "Occasional": "",
+            "Disabling": ""
+        }
+    },
+    "CompoundDose": {
+        "column_description": "A dose quantity for the treatment compound. To be used with compoundDoseUnit.",
+        "value_data": {}
+    },
+    "ReadDepth": {
+        "column_description": "If available, the coverage statistic as output from bedtools coverage or samtools stats.",
+        "value_data": {}
+    },
+    "InChIKey": {
+        "column_description": "//pubchem.ncbi.nlm.nih.gov/compound/10127622#section=InChI-Key).  This is a more reliable identifier than the compound name and should be used if available.\n",
+        "value_data": {}
+    },
+    "ConcentrationMaterial": {
+        "column_description": "Numeric value for concentration of the material",
+        "value_data": {}
+    },
+    "FileCount": {
+        "column_description": "Number of files in the resource collection.",
+        "value_data": {}
+    },
+    "AssayTarget": {
+        "column_description": "Target of the assay such as a HUGO gene symbol, cell type, or tissue region depending on the capabilities of the assay.",
+        "value_data": {}
+    },
+    "ReadLength": {
+        "column_description": "Number of base pairs (bp) sequenced for a read",
+        "value_data": {}
+    },
+    "TumorTreatmentStatus": {
+        "column_description": "Tumor treatment status for the individual.",
+        "value_data": {
+            "Nospecifictherapy": "",
+            "Chemotherapy": "",
+            "Surgery": "",
+            "Radiation": "",
+            "Targetedtherapy": "",
+            "Clinicaltrial": ""
+        }
+    },
+    "StudyId": {
+        "column_description": "Id of study.",
+        "value_data": {}
+    },
+    "Filename": {
+        "column_description": "The name of the file.",
+        "value_data": {}
+    },
+    "DiffuseDermalNeurofibromas": {
+        "column_description": "Characterization of the manifestation of Diffuse dermal neurofibromas.",
+        "value_data": {
+            "Absent": "",
+            "Scattered": "",
+            "Dense": "",
+            "Unknown": ""
+        }
+    },
+    "ReadStrandOrigin": {
+        "column_description": "The strand from which the read originates in a strand-specific protocol",
+        "value_data": {
+            "Forward": "",
+            "Reverse": ""
+        }
+    },
+    "Series": {
+        "column_description": "Title of a custom series that this resource is part of, if any.",
+        "value_data": {}
+    },
+    "ProgressReportNumber": {
+        "column_description": " if submitting data for the 6-month milestone report for NTAP, progressReportNumber=1.  Also if submitting data associated with first milestone, progressReportNumber =1",
+        "value_data": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
+            "10": "",
+            "NotApplicable": ""
+        }
+    },
+    "SpecimenPreparationMethod": {
+        "column_description": "Term that represents preservation of the sample before usage in, e.g. sequencing",
+        "value_data": {
+            "Freshcollected": "",
+            "Flashfrozen": "",
+            "FFPE": "",
+            "Cryopreserved": "",
+            "OCT": "",
+            "RNAlater": "",
+            "Formalin-fixed": "",
+            "Ethanol": "",
+            "Viablyfrozen": ""
+        }
+    },
+    "IsMultiIndividual": {
+        "column_description": "Whether or not a file has data for multiple individuals (Yes; No)",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "LibraryStrand": {
+        "column_description": "Strandedness of paired-end RNA-Sequencing data. This is an important parameter for RNA-seq analysis.",
+        "value_data": {
+            "FirstStranded": "",
+            "SecondStranded": "",
+            "Unstranded": "",
+            "NotApplicable": ""
+        }
+    },
+    "GIST": {
+        "column_description": "Characterization of the manifestation of Gastrointestinal stromal tumor (GIST).",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "Immersion": {
+        "column_description": "Immersion medium",
+        "value_data": {
+            "Air": "",
+            "Oil": "",
+            "Water": "",
+            "Other": ""
+        }
+    },
+    "CaptureArea": {
+        "column_description": "  A1, B1, C1, D1 for Visium slides with 6.5 mm Capture Area and A, B for CytAssist slides with 11 mm Capture Area.  Both CytAssist slides with 6.5 mm Capture Area and Gateway Slides contain only two slide areas, A1 and D1.\n",
+        "value_data": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "A1": "",
+            "B1": "",
+            "C1": "",
+            "D1": ""
+        }
+    },
+    "ExperimentalFactor": {
+        "column_description": "An ontology concept for experimental factor measured with this data.",
+        "value_data": {
+            "Braingrowthmeasurement": "",
+            "Brainvolumemeasurement": "",
+            "Bodyweight": "",
+            "Clinicallaboratorymeasurement": "",
+            "Cognitivefunctionmeasurement": "",
+            "Gaitmeasurement": "",
+            "Motordevelopmentmeasurement": "",
+            "Painmeasurement": ""
+        }
+    },
+    "Stature": {
+        "column_description": "Stature of the individual.",
+        "value_data": {
+            "<5thcentile": "",
+            "5th-95thcentile": "",
+            ">95thcentile": ""
+        }
+    },
+    "ReadPair": {
+        "column_description": "The read of origin, Read 1 or Read 2",
+        "value_data": {}
+    },
+    "WorkingDistanceUnit": {
+        "column_description": "Unit for working distance.",
+        "value_data": {
+            "Angstrom": "",
+            "Nanometer": "",
+            "Micrometer": "",
+            "Millimeter": "",
+            "Centimeter": ""
+        }
+    },
+    "NonopticGlioma": {
+        "column_description": "Characterization of the manifestation of Nonoptic glioma.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "GermlineMutationIndicator": {
+        "column_description": "Indicates a summary testing result for individual's germline mutation only.",
+        "value_data": {
+            "Nottested": "",
+            "Testedbutunknown": ""
+        }
+    },
+    "AntibodyID": {
+        "column_description": "Antibody ID such as RRID if available, otherwise use vendor ID.",
+        "value_data": {}
+    },
+    "SpecimenIDSource": {
+        "column_description": "Optional annotation describing where the specimen ID source derived from, e.g. the biobank providing samples or a providing lab.",
+        "value_data": {}
+    },
+    "VestibularSchwannoma": {
+        "column_description": "Characterization of the manifestation of Vestibular schwannoma.",
+        "value_data": {
+            "Notimaged": "",
+            "Absentbyimaging": "",
+            "Unilateral": "",
+            "Bilateral": "",
+            "Unknown": ""
+        }
+    },
+    "IsPairedEnd": {
+        "column_description": "(Legacy/deprecated annotation) Whether or not is paired-end sequencing (Yes; No).",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "PlateName": {
+        "column_description": "User-specified identifier of the plate used to prepare the sample for analysis.",
+        "value_data": {}
+    },
+    "NumberOfSchwannomas": {
+        "column_description": "Number of schwannomas.",
+        "value_data": {
+            "Single": "",
+            "Scattered": "",
+            "Dense": "",
+            "Unknown": ""
+        }
+    },
+    "DataStatus": {
+        "column_description": "Overall status of data in a study.",
+        "value_data": {
+            "DataNotExpected": "",
+            "DataPending": "",
+            "UnderEmbargo": "",
+            "RollingRelease": "",
+            "PartiallyAvailable": "",
+            "Available": ""
+        }
+    },
+    "ContentSize": {
+        "column_description": "(Files only) File size, usually calculated by the backend.",
+        "value_data": {}
+    },
+    "TargetCaptureKitID": {
+        "column_description": "A unique identifier for the kit used to construct a genomic library using target capture-based techniques, which should be composed of the vendor name, kit name and kit version.\n",
+        "value_data": {}
+    },
+    "AliquotID": {
+        "column_description": "A unique identifier (non-PII) that represents the aliquots used for e.g. replicate runs. This is linked to the specimenID.",
+        "value_data": {}
+    },
+    "Initiative": {
+        "column_description": "Refers to a funding initiative. Typically handled by the DCC.",
+        "value_data": {}
+    },
+    "NominalMagnification": {
+        "column_description": "magnification of the lens as specified by the manufacturer - i.e. '60' is a 60X lens.",
+        "value_data": {}
+    },
+    "GenePerturbationTechnology": {
+        "column_description": "Technology used to perturb gene",
+        "value_data": {
+            "RNAi": "",
+            "CRISPR": "",
+            "CRERecombinase": ""
+        }
+    },
+    "RelatedResource": {
+        "column_description": "A related resource.",
+        "value_data": {}
+    },
+    "SpecimenID": {
+        "column_description": "A unique identifier (non-PII) that represents the subspecimen (subsample) from which the data came,  e.g. an ID that distinguishes between different parts of the same parent tumor specimen.\n",
+        "value_data": {}
+    },
+    "Comments": {
+        "column_description": "Brief free-text comments that may also be important to understanding the resource.",
+        "value_data": {}
+    },
+    "FileFormat": {
+        "column_description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
+        "value_data": {
+            "7z": "",
+            "DICOM": "",
+            "MATLABdata": "",
+            "MATLABscript": "",
+            "NWB": "",
+            "PAR": "",
+            "Pythonscript": "",
+            "Rscript": "",
+            "RCC": "",
+            "RData": "",
+            "REC": "",
+            "SDAT": "",
+            "SPAR": "",
+            "Sentrixdescriptorfile": "",
+            "Ab1": "",
+            "Abf": "",
+            "Ai": "",
+            "Avi": "",
+            "Bai": "",
+            "Bam": "",
+            "Bashscript": "",
+            "Bcf": "",
+            "Bed": "",
+            "BedbroadPeak": "",
+            "BedgappedPeak": "",
+            "BednarrowPeak": "",
+            "Bedgraph": "",
+            "Bgzip": "",
+            "Bigwig": "",
+            "Bmp": "",
+            "Bpm": "",
+            "Cel": "",
+            "Chp": "",
+            "Cnn": "",
+            "Cnr": "",
+            "Cns": "",
+            "Cram": "",
+            "Crai": "",
+            "Csi": "",
+            "Csv": "",
+            "Ctab": "",
+            "Czi": "",
+            "Dat": "",
+            "Dna": "",
+            "Doc": "",
+            "Dockerimage": "",
+            "Dup": "",
+            "Edat3": "",
+            "Excel": "",
+            "Fasta": "",
+            "Fastq": "",
+            "Fcs": "",
+            "Fig": "",
+            "Flagstat": "",
+            "Gb": "",
+            "Gct": "",
+            "Gff3": "",
+            "Gtf": "",
+            "Gzip": "",
+            "Hdf5": "",
+            "Hdr": "",
+            "Hic": "",
+            "Html": "",
+            "Hyperlink": "",
+            "Idat": "",
+            "Idx": "",
+            "Img": "",
+            "Jpg": "",
+            "Js": "",
+            "Json": "",
+            "Lif": "",
+            "Locs": "",
+            "Maf": "",
+            "Md": "",
+            "Mov": "",
+            "MPEG-4": "",
+            "Msf": "",
+            "Mtx": "",
+            "MzML": "",
+            "Nii": "",
+            "Ome-tiff": "",
+            "Pdf": "",
+            "Plink": "",
+            "Png": "",
+            "Powerpoint": "",
+            "Pzfx": "",
+            "Psydat": "",
+            "Raw": "",
+            "Rds": "",
+            "Recal": "",
+            "Rmd": "",
+            "Sam": "",
+            "Sav": "",
+            "Sdf": "",
+            "Seg": "",
+            "Sf": "",
+            "Sif": "",
+            "Sqlite": "",
+            "Sra": "",
+            "Svg": "",
+            "Svs": "",
+            "TagAlign": "",
+            "Tar": "",
+            "Tbi": "",
+            "Tif": "",
+            "Tom": "",
+            "Tranches": "",
+            "Tsv": "",
+            "Txt": "",
+            "Vcf": "",
+            "Wiggle": "",
+            "Xml": "",
+            "Yaml": "",
+            "Zip": ""
+        }
+    },
+    "Nf2Genotype": {
+        "column_description": "Genotype of NF2 gene in the biospecimen from which the data were derived, if known",
+        "value_data": {
+            "-/-": "",
+            "+/-": "",
+            "+/+": "",
+            "Unknown": ""
+        }
+    },
+    "PeripheralNeuropathy": {
+        "column_description": "Characterization of the manifestation of Peripheral neuropathy.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "Component": {
+        "column_description": "Type of metadata template; provide the same one for all items/rows.",
+        "value_data": {}
+    },
+    "Scoliosis": {
+        "column_description": "Characterization of the manifestation of Scoliosis.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "Species": {
+        "column_description": "The name of a species (typically a taxonomic group) of organism.",
+        "value_data": {
+            "Rattusnorvegicus": "",
+            "Gallusgallus": "",
+            "Pantroglodytes": "",
+            "Musmusculus(humanized)": "",
+            "Homosapiens": "",
+            "Daniorerio": "",
+            "Drosophilamelanogaster": "",
+            "Rhesusmacaque": "",
+            "Susscrofa": "",
+            "Oryctolaguscuniculus": "",
+            "Musmusculus": ""
+        }
+    },
+    "ConcreteType": {
+        "column_description": "Refers to the class model the data platform uses for representing the resource. This is a low-level field set by the platform and is not a user annotation.",
+        "value_data": {}
+    },
+    "YearPublished": {
+        "column_description": "Year in which the resource was published/generally made available.",
+        "value_data": {}
+    },
+    "FundingAgency": {
+        "column_description": "Refers to the funding organization for the generated resource. This annotation is handled by the DCC.",
+        "value_data": {}
+    },
+    "IntellectualDisability": {
+        "column_description": "Characterization of the manifestation of Intellectual disability.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "PlexiformNeurofibromas": {
+        "column_description": "Characterization of the manifestation of Plexiform neurofibromas.",
+        "value_data": {
+            "Present": "",
+            "AbsentbyMRI": "",
+            "Absentclinically-noMRI": "",
+            "Unknown": ""
+        }
+    },
+    "MPNSTCharacterization": {
+        "column_description": "Characterization of the manifestation of MPNST.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "NucleicAcidSource": {
+        "column_description": "Source of the extracted nucleic acid used in the experiment",
+        "value_data": {
+            "Bulkcell": "",
+            "Bulknuclei": "",
+            "Mitochondria": "",
+            "Singlecell": "",
+            "Singlenucleus": ""
+        }
+    },
+    "MeanCoverage": {
+        "column_description": "Mean coverage for whole genome sequencing, or mean target coverage for whole exome and targeted sequencing, collected from Picard Tools",
+        "value_data": {}
+    },
+    "Channel": {
+        "column_description": "Color channel used to generate data file.",
+        "value_data": {
+            "Cy3": "",
+            "Cy5": "",
+            "NotApplicable": ""
+        }
+    },
+    "GenePerturbed": {
+        "column_description": "The HUGO gene symbol for the gene that is perturbed.",
+        "value_data": {}
+    },
+    "Type": {
+        "column_description": "Refers to the type of the resource on the platform, e.g. \u201cfile\u201d.",
+        "value_data": {}
+    },
+    "Etag": {
+        "column_description": "Synapse employs an Optimistic Concurrency Control (OCC) scheme to handle concurrent updates. The E-Tag changes every time an entity is updated it is used to detect when a client's current representation of an entity is out-of-date.",
+        "value_data": {}
+    },
+    "RuntimePlatform": {
+        "column_description": "Runtime platform or script interpreter dependencies (e.g. Java v1, Python 2.3).",
+        "value_data": {}
+    },
+    "Nf1SomaticMutation": {
+        "column_description": "NF1 somatic mutation, i.e. in tumor samples.",
+        "value_data": {}
+    },
+    "Manifestation": {
+        "column_description": "An associated phenotype characteristic.",
+        "value_data": {}
+    },
+    "AqueductalStenosis": {
+        "column_description": "Characterization of the manifestation of aqueductal stenosis.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "IrisLischNodules": {
+        "column_description": "Characterization of the manifestation of Iris Lisch Nodules.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "ConcentrationNaCl": {
+        "column_description": "Numeric value for NaCl concentration",
+        "value_data": {}
+    },
+    "ResourceType": {
+        "column_description": "The type of resource being stored and annotated",
+        "value_data": {
+            "ExperimentalData": "",
+            "Result": "",
+            "Tool": "",
+            "Workflowreport": "",
+            "Report": "",
+            "Metadata": "",
+            "Protocol": "",
+            "Weblink": ""
+        }
+    },
+    "DissociationMethod": {
+        "column_description": "Procedure by which a biological specimen is dissociated into individual cells or a cell suspension",
+        "value_data": {
+            "10xV2": "",
+            "FACS": "",
+            "FluidigmC1": "",
+            "Drop-seq": "",
+            "InDrop": "",
+            "Mouthpipette": "",
+            "Enzymatic": "",
+            "Mechanical": ""
+        }
+    },
+    "MaterialType": {
+        "column_description": "Type of material in the characterization",
+        "value_data": {
+            "Nanoparticles": "",
+            "Polymericnanoparticles": "",
+            "Smallmolecule": "",
+            "DNA": ""
+        }
+    },
+    "AuxiliaryAsset": {
+        "column_description": "URI to supplemental asset(s), e.g. QC reports or other auxiliary files to support the processing, analysis, or interpretation of the current entity.\n",
+        "value_data": {}
+    },
+    "HeartDefect": {
+        "column_description": "Characterization of the manifestation of Heart defect.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "Doi": {
+        "column_description": "Digital object identifier of the resource.",
+        "value_data": {}
+    },
+    "ReadsDuplicatedPercent": {
+        "column_description": "Percent of duplicated reads collected from samtools",
+        "value_data": {}
+    },
+    "Pheochromocytoma": {
+        "column_description": "Characterization of the manifestation of Pheochromocytoma.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "IsMultiSpecimen": {
+        "column_description": "Whether or not a file has data for multiple specimens (Yes; No)",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "MRISequence": {
+        "column_description": "A mode used in MRI imaging",
+        "value_data": {
+            "PD-weighted": "",
+            "ShortTauInversionRecovery": "",
+            "T1-weighted": "",
+            "T2-weighted": ""
+        }
+    },
+    "DatasetSizeInBytes": {
+        "column_description": "Size of dataset entity in bytes. Auto-calculated by Synapse.",
+        "value_data": {}
+    },
+    "DiagnosisAgeGroup": {
+        "column_description": "Age group of the individual at the time of diagnosis.",
+        "value_data": {
+            "Infancy": "",
+            "Childhood": "",
+            "Adolescence": "",
+            "Adulthood": "",
+            "Unknown": ""
+        }
+    },
+    "YearProcessed": {
+        "column_description": "Year in which the resource was processed/derived, if applicable.  This is only required for data processed by NF-OSI for tracking purposes, optional for community-contributed datasets. \n",
+        "value_data": {}
+    },
+    "ReferenceSequence": {
+        "column_description": "Syntactic sequences that has a role as reference of an annotation.",
+        "value_data": {}
+    },
+    "Title": {
+        "column_description": "Title of a resource.",
+        "value_data": {}
+    },
+    "Documentation": {
+        "column_description": "URL to any documentation describing the resource and its use.",
+        "value_data": {}
+    },
+    "RelatedDataset": {
+        "column_description": "Reference to a relevant dataset entity.",
+        "value_data": {}
+    },
+    "Inheritance": {
+        "column_description": "Describes whether known inheritance from a parent.",
+        "value_data": {
+            "Parentaffected": "",
+            "Parentnotaffected": "",
+            "Unknown": ""
+        }
+    },
+    "ConcentrationMaterialUnit": {
+        "column_description": "Unit used for the material concentration, e.g. mg/mL",
+        "value_data": {
+            "Mg/mL": "",
+            "MM": "",
+            "Particles/mL": ""
+        }
+    },
+    "ProportionCoverage10x": {
+        "column_description": "Proportion of all reference bases for whole genome sequencing, or targeted bases for whole exome and targeted sequencing, that achieves 10X or greater coverage from Picard Tools",
+        "value_data": {}
+    },
+    "StudyName": {
+        "column_description": "Name of a study.",
+        "value_data": {}
+    },
+    "Author": {
+        "column_description": "The author of the resource; preferably use an ORCID ID, GitHub profile link, etc., if available and a text name if not.",
+        "value_data": {}
+    },
+    "Summary": {
+        "column_description": "A short description (an abstract).",
+        "value_data": {}
+    },
+    "IsPrimaryCell": {
+        "column_description": "Whether or not cellType is primary (Yes; No)",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "Citation": {
+        "column_description": "Citation (e.g. doi) that usage of data or resource should be cited with.",
+        "value_data": {}
+    },
+    "SampleType": {
+        "column_description": "Type of sample used",
+        "value_data": {}
+    },
+    "RecordingSource": {
+        "column_description": "Source of electrophysiology recording.",
+        "value_data": {
+            "Electrode": "",
+            "Tetrode": "",
+            "Shank": "",
+            "Utaharray": "",
+            "Otherelectrodearray": ""
+        }
+    },
+    "Workflow": {
+        "column_description": "Name and version of the workflow used to generate/analyze the data",
+        "value_data": {
+            "CNVkit": "",
+            "DeepVariant": "",
+            "DESeq2": "",
+            "FastQC": "",
+            "FreeBayes": "",
+            "GATKBaseRecalibration": "",
+            "GATKMarkDuplicates": "",
+            "MultiQC": "",
+            "Mutect2": "",
+            "Sarek": "",
+            "STARandSalmon": "",
+            "Strelka2": "",
+            "StringTie": "",
+            "TrimGalore": ""
+        }
+    },
+    "WorkflowLink": {
+        "column_description": "Workflow URL reference",
+        "value_data": {}
+    },
+    "PH": {
+        "column_description": "Numeric value for pH (range 0-14)",
+        "value_data": {}
+    },
+    "LibraryKitID": {
+        "column_description": "Library kit ID.",
+        "value_data": {}
+    },
+    "PairsOnDifferentChr": {
+        "column_description": "Pairs on different chromosomes collected from samtools",
+        "value_data": {}
+    },
+    "ConcentrationNaClUnit": {
+        "column_description": "Unit used for the NaCl concentration, e.g. mM",
+        "value_data": {
+            "Mg/mL": "",
+            "MM": "",
+            "Particles/mL": ""
+        }
+    },
+    "TransplantationRecipientTissue": {
+        "column_description": "Tissue into which a xenograph sample is transplanted",
+        "value_data": {
+            "Cerebralcortex": "",
+            "Bonemarrow": "",
+            "Plasma": "",
+            "DorsalRootGanglion": "",
+            "Opticnerve": "",
+            "Tumor-adjacentnormal": "",
+            "Serum": "",
+            "Spheroid": "",
+            "Sciaticnerve": "",
+            "Meninges": "",
+            "Nervetissue": "",
+            "BuccalMucosa": "",
+            "Embryonictissue": "",
+            "Wholebrain": "",
+            "Microtissue": "",
+            "Retina": "",
+            "CDXtissue": "",
+            "Organoid": "",
+            "Splenocyte": "",
+            "Blood": "",
+            "Connectivetissue": "",
+            "Primarytumor": "",
+            "PDXtissue": "",
+            "BuffyCoat": ""
+        }
+    },
+    "SpecimenType": {
+        "column_description": "The type of a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. This includes particular types of cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory substances.\n",
+        "value_data": {
+            "Cerebralcortex": "",
+            "Bonemarrow": "",
+            "Plasma": "",
+            "DorsalRootGanglion": "",
+            "Opticnerve": "",
+            "Tumor-adjacentnormal": "",
+            "Serum": "",
+            "Spheroid": "",
+            "Sciaticnerve": "",
+            "Meninges": "",
+            "Nervetissue": "",
+            "BuccalMucosa": "",
+            "Embryonictissue": "",
+            "Wholebrain": "",
+            "Microtissue": "",
+            "Retina": "",
+            "CDXtissue": "",
+            "Organoid": "",
+            "Splenocyte": "",
+            "Blood": "",
+            "Connectivetissue": "",
+            "Primarytumor": "",
+            "PDXtissue": "",
+            "BuffyCoat": "",
+            "Saliva": "",
+            "Mucus": "",
+            "Urine": "",
+            "Stool": "",
+            "Sweat": ""
+        }
+    },
+    "DatasetItemCount": {
+        "column_description": "Count of files in dataset. Auto-calculated by Synapse.",
+        "value_data": {}
+    },
+    "DataFileHandleId": {
+        "column_description": "(Files only) Refers to the id of the file.",
+        "value_data": {}
+    },
+    "IndividualIdSource": {
+        "column_description": "Database or repository to which individual ID maps",
+        "value_data": {}
+    },
+    "TotalReads": {
+        "column_description": "If available, the total number of reads collected from samtools.",
+        "value_data": {}
+    },
+    "Contributor": {
+        "column_description": "An entity responsible for making contributions to the resource.",
+        "value_data": {}
+    },
+    "DataType": {
+        "column_description": "Links an entity to data types that the entity represents/contains. This is closely tied to the assay property. For example, a file of dataType `genomicVariants` might have an assay value of `whole genome sequencing`.\n",
+        "value_data": {
+            "Immunoassay": "",
+            "Behaviorprocess": "",
+            "Clinical": "",
+            "Demographics": "",
+            "Particlecharacterization": "",
+            "DrugCombinationScreen": "",
+            "IsoformExpression": "",
+            "Proteomics": "",
+            "SurveyData": "",
+            "Kinomics": "",
+            "SomaticVariants": "",
+            "Volume": "",
+            "Characteristic": "",
+            "DrugScreen": "",
+            "GeneExpression": "",
+            "AlignedReads": "",
+            "GenomicFeatures": "",
+            "GenomicVariants": "",
+            "Rawcounts": "",
+            "RawIntensities": "",
+            "NormalizedIntensities": "",
+            "PharmacokineticStudy": "",
+            "Maskimage": "",
+            "ChromatinActivity": "",
+            "StructuralVariants": "",
+            "GermlineVariants": "",
+            "CopyNumberVariants": "",
+            "Image": "",
+            "Network": "",
+            "CellularPhysiology": "",
+            "Metabolomics": "",
+            "AnnotatedSomaticVariants": "",
+            "AnnotatedGermlineVariants": "",
+            "Weight": "",
+            "Electrophysiology": "",
+            "Audiotranscript": "",
+            "DataIndex": "",
+            "DescriptiveMetadata": "",
+            "StructuralMetadata": "",
+            "AdministrativeMetadata": "",
+            "ReferenceMetadata": "",
+            "StatisticalMetadata": "",
+            "LegalMetadata": "",
+            "WorkflowMetadata": ""
+        }
+    },
+    "DataSubtype": {
+        "column_description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",
+        "value_data": {
+            "Normalized": "",
+            "DataMatrix": "",
+            "Raw": "",
+            "Processed": "",
+            "Metadata": "",
+            "Representative": ""
+        }
+    },
+    "TimepointUnit": {
+        "column_description": "For timed experiments this represents the unit of time measured",
+        "value_data": {
+            "Seconds": "",
+            "Minutes": "",
+            "Hours": "",
+            "Days": "",
+            "Weeks": "",
+            "Months": "",
+            "Years": ""
+        }
+    },
+    "WHOPerformanceStatus": {
+        "column_description": "Score on the WHO scale describing patient's functional abilities.",
+        "value_data": {
+            "0": "",
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "CurrentVersion": {
+        "column_description": "(Versionable entities only) The current version number of the resource.",
+        "value_data": {}
+    },
+    "GenomicReference": {
+        "column_description": "Version of genome reference used for alignment in processing workflow",
+        "value_data": {}
+    },
+    "Organ": {
+        "column_description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
+        "value_data": {
+            "Kidney": "",
+            "Ovary": "",
+            "Lung": "",
+            "Bonemarrow": "",
+            "Prostate": "",
+            "Breast": "",
+            "Mesentery": "",
+            "Mammarygland": "",
+            "Colon": "",
+            "Spleen": "",
+            "BursaOfFabricius": "",
+            "Nose": "",
+            "Brain": "",
+            "Pancreas": "",
+            "Liver": "",
+            "Blood": "",
+            "Lymphnode": "",
+            "Nerves": "",
+            "Skin": "",
+            "Eye": ""
+        }
+    },
+    "LearningDisability": {
+        "column_description": "Characterization of the manifestation of Learning disability.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "Id": {
+        "column_description": "The entity id for the resource automatically assigned by the platform.",
+        "value_data": {}
+    },
+    "IsXenograft": {
+        "column_description": "Whether or not sample source is a xenograft (Yes; No)",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "ResourceId": {
+        "column_description": "A UUID for a Resource from the NF Research Tools Database",
+        "value_data": {}
+    },
+    "LenticularOpacity": {
+        "column_description": "Characterization of the manifestation of Lenticular opacity.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "DrugScreenType": {
+        "column_description": "String describing general class of drug screen",
+        "value_data": {
+            "Combinationlibraryscreen": "",
+            "Combinationscreen": "",
+            "Singlemolecule": "",
+            "Smallmoleculelibraryscreen": ""
+        }
+    },
+    "ExperimentalCondition": {
+        "column_description": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin).",
+        "value_data": {}
+    },
+    "CafeaulaitMacules": {
+        "column_description": "Characterization of cafe-au-lait macules.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "ModelSystemName": {
+        "column_description": "  HEK293 (cell line), Minnesota5 (swine strain), DXL (poultry strain), RB51 (vaccine strain of Brucella abortus)",
+        "value_data": {
+            "HEK293NF1-/-withWTmNf1cDNA": "",
+            "SZ-NF4": "",
+            "Nf1-/-HEK293": "",
+            "HEK293NF1-/-Exon52R2550X#5": "",
+            "HBE135-E6E7": "",
+            "NCC-MPNST5-C1": "",
+            "Sc93.1": "",
+            "JHU2-079-PDX": "",
+            "HEK293NF1-/-withR192XmNf1cDNA": "",
+            "IcNF98.4c": "",
+            "ST88-14": "",
+            "HTERTNF1ipNF95.6": "",
+            "IcNF99.1": "",
+            "CNF00.10a": "",
+            "IPSCY489C;Exon13crypticsplice": "",
+            "3PNFSiPSsvMM11": "",
+            "HTERTNF1ipnNF09.4": "",
+            "S520": "",
+            "SchwanncellNF1-/-withR681XmNf1cDNA": "",
+            "JH-2-002-CL": "",
+            "NCC-MPNST2-C1": "",
+            "HEK293NF1-/-withR1306XmNf1cDNA": "",
+            "WTES": "",
+            "Fb93.1": "",
+            "CNF04.9a": "",
+            "JHU2-103-PDX": "",
+            "5PNFTDiPSsvPM6": "",
+            "NCC-MPNST1-C1": "",
+            "7PNFSiPSrvPM12": "",
+            "HEK293NF1-/-withR681XmNf1cDNA": "",
+            "GM23338": "",
+            "HTERTNF1ipnNF95.11c": "",
+            "T265": "",
+            "HEK293NF1-/-clone2": "",
+            "SNF02.2": "",
+            "IPSCNF1WT": "",
+            "IcNF98.4d": "",
+            "NF2-/-AC007-hTERT": "",
+            "HEK293NF1-/-withWTtaggedmNf1cDNA": "",
+            "NCC-MPNST3-C1": "",
+            "HEK293": "",
+            "Dh5alpha": "",
+            "IcNF97.2a": "",
+            "SchwanncellNF1-/-(iPN97.4#24)": "",
+            "CNF97.5": "",
+            "NCC-MPNST4-C1": "",
+            "NMS-2": "",
+            "CNF99.1": "",
+            "HiPSC": "",
+            "AC007-hTERT": "",
+            "ScienCellSchwanncells": "",
+            "IcNF04.9a": "",
+            "90-8": "",
+            "SchwanncellNF1-/-withWTtaggedmNf1cDNA": "",
+            "IPSCNF1+/-BJFF.6bkgd": "",
+            "JHU2-079-CL": "",
+            "CNF97.2b": "",
+            "JHU2-002-CL": "",
+            "NF1": "",
+            "SZ-NF1": "",
+            "3PNFFiPSsvPM2": "",
+            "HTERTNF1ipNF05.5(Mixedclones)": "",
+            "HTERTipn02.32\u03bb": "",
+            "JHU2-103-CL": "",
+            "HEK293NF1-/-Exon17#A15G629Rcrypticsplice": "",
+            "Lis42NF11N": "",
+            "ELK-TADLuciferaseReporterHEK293StableNF1-/-": "",
+            "Humanforeskinfibroblasts": "",
+            "IcNF00.10a": "",
+            "HEK293NF1-/-withR1947XmNf1cDNA": "",
+            "Nf1-/-Epitheliallungcells": "",
+            "Nf2-/-SchwannSC(mouse)(PMID26554010)": "",
+            "STS-26T": "",
+            "HEK293NF1-/-withR461XmNf1cDNA": "",
+            "I28cNF": "",
+            "SNF94.3": "",
+            "Nf1-/-skin-derivedprecursorcells": "",
+            "HTERTipn02.8": "",
+            "Dhh-Cre;NF1Arg681*/floxSchwannCells": "",
+            "KCL024": "",
+            "IcNF97.2b": "",
+            "HeLaSilenciXNF1": "",
+            "HTERTNF1ipNF95.11bC/T": "",
+            "HEK293NF1-/-Exon47insT#14": "",
+            "HS-PSS": "",
+            "YST-1": "",
+            "M3MPNST": "",
+            "S462.TY": "",
+            "S462": "",
+            "HEK293NF1-/-Exon17#B48G629Rcrypticsplice": "",
+            "GM11602": "",
+            "Lis47NF12N": "",
+            "HTERTNF1sipnNF95.12B": "",
+            "KCL025": "",
+            "SchwanncellNF1-/-withR816XmNf1cDNA": "",
+            "HiPSC-SCP": "",
+            "SNF96.2": "",
+            "CNF98.4c": "",
+            "NF1-R68XEmbryoniccells": "",
+            "BJFF.6": "",
+            "Ben-Men-1": "",
+            "HEK293NF1-/-withR816XmNf1cDNA": "",
+            "HTERTNF1ipNF05.5": "",
+            "I18cNF": "",
+            "HTERTSCipn97.4": "",
+            "I21cNF": "",
+            "CNF98.4d": "",
+            "28cNF": "",
+            "SC4[Mouseschwannoma]": "",
+            "CNF18.1a": "",
+            "Nf1Arg681*/Arg681*ES": "",
+            "GM11601": "",
+            "HEK293NF1-/-withR2550XmNf1cDNA": "",
+            "JH-2-103-CL": "",
+            "HS-Sch-2": "",
+            "HTERTNF1ipn02.32\u03bb": "",
+            "ELK-TADLuciferaseReporterHEK293Stable": "",
+            "6PNFSiPSrvPM2": "",
+            "HTERTNF1ipNF03.3": "",
+            "JH-2-079-CL": "",
+            "HTERTNF1ipNF04.4": "",
+            "Nf1Arg681*/Arg681*MEFs": "",
+            "Nf1Arg681*/+ES": "",
+            "CNF97.2a": "",
+            "Schwanncelli28cNFNF1-/-(#14)": "",
+            "HTERTNF1ipNF00.6": "",
+            "NCC-MPNST3-X2-C1": "",
+            "JHU2-002-PDX": "",
+            "HTERTNF1ipNF95.11bC": "",
+            "5PNFTDiPSsvMM4": "",
+            "HTERTNF1ipn06.2A": "",
+            "HTERTSCipn02.8": "",
+            "SZ-NF2": "",
+            "SMPNST": "",
+            "HS02": "",
+            "HS05": "",
+            "B6;129S2-Trp53tm1TyjNf1tm1Tyj/J": "",
+            "Prss56Cre;R26mT": "",
+            "B6.129S1-Nf1tm1Cbr/J": "",
+            "Nf1-OPG": "",
+            "C57BL/6J": "",
+            "NRG": "",
+            "Nf1-OPG-Arg816": "",
+            "NODscidgamma": "",
+            "B6.129S2-Nf1tm1Tyj/J": "",
+            "B6;129-Trp53tm1TyjNf1tm1TyjSuz12Gt(Betageo)1Khe/KcichJ": "",
+            "B6.129(Cg)-Nf1tm1Par/J": "",
+            "GFAP-Cre;Nf1-G848R/Flox": "",
+            "GFAP-Cre;Nf1-R681X/Flox": "",
+            "GFAP-Cre;Nf1-C383X/Flox": "",
+            "Nf1-C848R/Flox": "",
+            "Nf1-R681X/Flox": "",
+            "Nf1-C383X/Flox": "",
+            "Nf1flox/flox": ""
+        }
+    },
+    "DermalNeurofibromas": {
+        "column_description": "Characterization of the manifestation of Dermal neurofibromas.",
+        "value_data": {
+            "Absent": "",
+            "Scattered": "",
+            "Dense": "",
+            "Unknown": ""
+        }
+    },
+    "PlateWell": {
+        "column_description": "User-specified identifier for the specific well of the plate used to prepare the sample for analysis.",
+        "value_data": {}
+    },
+    "ChipID": {
+        "column_description": "User-specified identifier for the chip used to perform the methylation microarray.",
+        "value_data": {}
+    },
+    "ProteinExtractSource": {
+        "column_description": "Source of the extracted protein used in the experiment",
+        "value_data": {
+            "Celllysate": "",
+            "Cytoplasm": "",
+            "Mitochondria": "",
+            "Nuclearextract": ""
+        }
+    },
+    "DataCollectionMode": {
+        "column_description": "Mode of data collection in tandem MS assays. Either DDA (data-dependent acquisition) or DIA (data-independent) acquisition.",
+        "value_data": {
+            "DDA": "",
+            "DIA": "",
+            "Other": ""
+        }
+    },
+    "BodySite": {
+        "column_description": "Sample location referring to a named area of the body, inclusive of gross anatomical structures and organ parts.",
+        "value_data": {
+            "Axilla": "",
+            "Groin": "",
+            "Leg": "",
+            "Thoracicspine": "",
+            "Forearm": "",
+            "Acetabulum": "",
+            "Muscle": "",
+            "Finger": "",
+            "Iliacspine": "",
+            "Head": "",
+            "Neck": "",
+            "Shoulder": "",
+            "Back": "",
+            "Spine": "",
+            "Scalp": "",
+            "Scapula": "",
+            "Pelvis": "",
+            "Dorsolateralprefrontalcortex": "",
+            "Occcipitallobe": ""
+        }
+    },
+    "LongBoneDysplasia": {
+        "column_description": "Characterization of the manifestation of Long bone dysplasia.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "LibraryPrep": {
+        "column_description": "The general strategy by which the library was prepared",
+        "value_data": {
+            "LncRNAenrichment": "",
+            "MiRNAenrichment": "",
+            "PolyAselection": "",
+            "RRNAdepletion": ""
+        }
+    },
+    "TumorType": {
+        "column_description": "The type of tumor that the biospecimen used to generate the data were collected from.",
+        "value_data": {
+            "DiffuseAstrocytoma": "",
+            "SubcutaneousNeurofibroma": "",
+            "PilomyxoidAstrocytoma": "",
+            "JuvenileMyelomonocyticLeukemia": "",
+            "AnaplasticAstrocytoma": "",
+            "MalignantPeripheralNerveSheathTumor": "",
+            "LocalizedNeurofibroma": "",
+            "CutaneousNeurofibroma": "",
+            "ColorectalAdenocarcinoma": "",
+            "AnaplasticPilocyticAstrocytoma": "",
+            "Schwannoma": "",
+            "HemorrhagicNeoplasm": "",
+            "NotApplicable": "",
+            "PilocyticAstrocytoma": "",
+            "Ganglioglioma": "",
+            "PlexiformNeurofibroma": "",
+            "NF2-AssociatedTumor": "",
+            "Fibrosarcoma": "",
+            "Low-GradeGliomaNOS": "",
+            "Glioblastoma": "",
+            "AnaplasticPleomorphicXanthoastrocytoma": "",
+            "GlioblastomaMultiforme": "",
+            "Unknown": "",
+            "AtypicalPilocyticAstrocytoma": "",
+            "OpticPathwayGlioma": "",
+            "DiffuseInfiltratingNeurofibroma": "",
+            "Fibromatosis": "",
+            "NeurofibromawithDegenerativeAtypia": "",
+            "NecroticNeoplasm": "",
+            "PleomorphicXanthoastrocytoma": "",
+            "Teratoma": "",
+            "Sarcoma": "",
+            "MassiveSoftTissueNeurofibroma": "",
+            "Glioma": "",
+            "Oligoastrocytoma": "",
+            "ColorectalCarcinoma": "",
+            "Meningioma": "",
+            "ANNUBP": "",
+            "High-GradeGliomaNOS": "",
+            "NF1-AssociatedTumor": "",
+            "AtypicalNeurofibroma": "",
+            "CellularNeurofibroma": "",
+            "Neurofibroma": "",
+            "RecurrentMPNST": "",
+            "AnaplasticGanglioglioma": "",
+            "Tumor": "",
+            "Metastatictumor": "",
+            "Metastatic/recurrenttumor": "",
+            "Recurrenttumor": "",
+            "Melanoma": "",
+            "NodularNeurofibroma": ""
+        }
+    },
+    "WorkingDistance": {
+        "column_description": "Working distance of the lens expressed as a floating point number > 0.",
+        "value_data": {}
+    },
+    "NonvestibularCranialSchwannoma": {
+        "column_description": "Characterization of the manifestation of Nonvestibular cranial schwannoma.",
+        "value_data": {
+            "Notimaged": "",
+            "Absentbyimaging": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "ExpressionUnit": {
+        "column_description": "Measure used for transcript expression quantification",
+        "value_data": {
+            "TPM": "",
+            "RPKM": "",
+            "FPKM": "",
+            "Counts": "",
+            "RawCounts": "",
+            "NormalizedCounts": "",
+            "Other": ""
+        }
+    },
+    "PubertyOnset": {
+        "column_description": "Puberty onset.",
+        "value_data": {
+            "Prebubertal": "",
+            "Precocious": "",
+            "Normal": "",
+            "Late": ""
+        }
+    },
+    "ReadsMappedPercent": {
+        "column_description": "Percent of mapped reads collected from samtools",
+        "value_data": {}
+    },
+    "GlomusTumor": {
+        "column_description": "Characterization of the manifestation of Glomus tumor.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "StudyStatus": {
+        "column_description": "Status of a study.",
+        "value_data": {
+            "Active": "",
+            "Completed": "",
+            "Withdrawn": ""
+        }
+    },
+    "SphenoidDysplasia": {
+        "column_description": "Characterization of the manifestation of Sphenoid dysplasia.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "NonvestibularSchwannomas": {
+        "column_description": "Characterization of the manifestation of Nonvestibular schwannomas.",
+        "value_data": {
+            "Onlybyimagingevidence": "",
+            "1pathogicallyconfirmed": "",
+            "2ormore,atleast1pathogicallyconfirmed": "",
+            "Unknown": ""
+        }
+    },
+    "GermlineMutation": {
+        "column_description": "The individual's actual germline mutation.",
+        "value_data": {}
+    },
+    "SkinFoldFreckling": {
+        "column_description": "Characterization of skin fold freckling.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "ContentType": {
+        "column_description": "Refers to the type of content.",
+        "value_data": {}
+    },
+    "Objective": {
+        "column_description": "Microscope objective.",
+        "value_data": {}
+    },
+    "Leukemia": {
+        "column_description": "Characterization of the manifestation of Leukemia.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "SubcutaneousNodularNeurofibromas": {
+        "column_description": "Characterization of the manifestation of Subcutaneous nodular neurofibromas.",
+        "value_data": {
+            "Absent": "",
+            "Scattered": "",
+            "Dense": "",
+            "Unknown": ""
+        }
+    },
+    "AverageInsertSize": {
+        "column_description": "Average insert size as reported by samtools",
+        "value_data": {}
+    },
+    "CellID": {
+        "column_description": "Also known as cell barcode, this value can be added for single-cell experiments to identify data at the cell level.",
+        "value_data": {}
+    },
+    "BatchID": {
+        "column_description": "Batch identifier, can be used in any context where added batch information is helpful, such as different sequencing runs or collection times.",
+        "value_data": {}
+    },
+    "IndividualID": {
+        "column_description": "A unique identifier (non-PII) that represents the individual from which the data came. This could be a patient or animal ID.",
+        "value_data": {}
+    },
+    "FailedQC": {
+        "column_description": "Whether the sample or data failed QC checks (Yes, No)",
+        "value_data": {
+            "Yes": "",
+            "No": ""
+        }
+    },
+    "VascularDisease": {
+        "column_description": "Characterization of the manifestation of Vascular disease.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "CompoundName": {
+        "column_description": "//pubchem.ncbi.nlm.nih.gov/compound/10127622)",
+        "value_data": {}
+    },
+    "Nf1GermlineMutation": {
+        "column_description": "NF1 germline mutation.",
+        "value_data": {}
+    },
+    "IsFilteredReads": {
+        "column_description": "Whether the reads in the processed result has been filtered by adding a 'PASS' filter or other filters as determined by the data generator",
+        "value_data": {}
+    },
+    "RunType": {
+        "column_description": "Sequencing run type.",
+        "value_data": {
+            "PairedEnd": "",
+            "SingleEnd": ""
+        }
+    },
+    "LensAperture": {
+        "column_description": "Numerical aperture of the lens. Floating point value > 0.",
+        "value_data": {}
+    },
+    "ReferenceSet": {
+        "column_description": "A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.",
+        "value_data": {}
+    },
+    "AttentionDeficitDisorder": {
+        "column_description": "Characterization of the manifestation of Attention Deficit Disorder.",
+        "value_data": {
+            "Absent": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "ParentId": {
+        "column_description": "The id of the parent resource, i.e. the parent folder on the platform. ",
+        "value_data": {}
+    },
+    "DiseaseFocus": {
+        "column_description": "Disease that acts as the main topic.",
+        "value_data": {}
+    },
+    "TransplantationRecipientSpecies": {
+        "column_description": "Species into which donor  was grown",
+        "value_data": {
+            "Human": "",
+            "Mouse": ""
+        }
+    },
+    "AcknowledgementStatements": {
+        "column_description": "Statement describing how resource use should be acknowledged.",
+        "value_data": {}
+    },
+    "ExperimentId": {
+        "column_description": "When applicable, an optional identifier that can be used to distinguish or group the experiments that generated the data; also can be used to denote internal batch reference if needed.",
+        "value_data": {}
+    },
+    "CellType": {
+        "column_description": "A cell type is a distinct morphological or functional form of cell.",
+        "value_data": {
+            "Monocytes": "",
+            "Macrophages": "",
+            "IPSC-derivedneuron": "",
+            "Lymphoblast": "",
+            "IPSC": "",
+            "DRG/nerverootneurospherecell": "",
+            "CD138+": "",
+            "Schwannoma": "",
+            "IPSC-derivedtelencephalicorganoids": "",
+            "Monocyte-derivedmicroglia": "",
+            "Microglia": "",
+            "SH-SY5Y": "",
+            "CNON": "",
+            "NeuN+": "",
+            "CulturedMullerglia": "",
+            "B-lymphocytes": "",
+            "Round": "",
+            "Epithelial": "",
+            "Epithelial-like": "",
+            "CD8+T-Cells": "",
+            "GLUtamatergicneurons": "",
+            "Arachnoid": "",
+            "GABAergicneurons": "",
+            "Schwann": "",
+            "IPSC-derivedglia": "",
+            "IPSC-derivedastrocytes": "",
+            "IPSC-derivedneuronalprogenitorcell": "",
+            "Oligodendrocyte": "",
+            "Fibroblast": "",
+            "Astrocytes": "",
+            "Schwanncellprecursor": "",
+            "NeuN-": "",
+            "Embryonicstemcells": "",
+            "Teratoma": "",
+            "Meningioma": ""
+        }
+    },
+    "ModifiedBy": {
+        "column_description": "Refers to a user who last modified the resource on the platform.",
+        "value_data": {}
+    },
+    "ParentSpecimenID": {
+        "column_description": "A unique identifier (non-PII) that represents the parent specimen (sample) from which the data came from, e.g. the single parent tumor that was subsectioned into several samples.  The parentSpecimenID can be the same as specimenID when there is no subsectioning.\n",
+        "value_data": {}
+    },
+    "ExperimentalTimepoint": {
+        "column_description": "The numeric value indicating the time elapsed from the beginning of the experiment at which the specimen was collected. Use in tandem with timePointUnit",
+        "value_data": {}
+    },
+    "VitalStatus": {
+        "column_description": "Vital status of the patient.",
+        "value_data": {
+            "Alive": "",
+            "Deceased": "",
+            "Unknown": ""
+        }
+    },
+    "ProtocolAssay": {
+        "column_description": "Main assay type that this protocol is related to, e.g. this is a prep protocol for single-cell RNA-seq assay. This is especially helpful for newly-developed or in-house assays.\n",
+        "value_data": {
+            "2DAlamarBlueabsorbance": "",
+            "2DAlamarBluefluorescence": "",
+            "3Dconfocalimaging": "",
+            "3Delectronmicroscopy": "",
+            "3Dimaging": "",
+            "3Dmicrotissueviability": "",
+            "Actigraphy": "",
+            "AlgometRxNociometer": "",
+            "Auditorybrainstemresponse": "",
+            "ATAC-seq": "",
+            "ATPaseactivityassay": "",
+            "BrdUproliferationassay": "",
+            "CAPP-seq": "",
+            "CUT&RUN": "",
+            "ChIP-seq": "",
+            "ChildBehaviorChecklistforAges1.5-5": "",
+            "ChildBehaviorChecklistforAges6-18": "",
+            "CODEX": "",
+            "Confocalmicroscopy": "",
+            "Corsiblocks": "",
+            "Currentclampassay": "",
+            "DiffusionMRI": "",
+            "Distortionproductotoacousticemissions": "",
+            "DNAopticalmapping": "",
+            "ELISA": "",
+            "ERRbisulfitesequencing": "",
+            "EdUproliferationassay": "",
+            "FIA-MSMS": "",
+            "FLIPRhigh-throughputcellularscreening": "",
+            "FluorescenceInSituHybridization": "",
+            "Focusgroup": "",
+            "FTIRspectroscopy": "",
+            "HI-C": "",
+            "HPLC": "",
+            "Interview": "",
+            "ISO-seq": "",
+            "MIB/MS": "",
+            "Matrigel-basedtumorigenesisassay": "",
+            "MudPIT": "",
+            "NIHToolbox": "",
+            "NOMe-seq": "",
+            "RNAarray": "",
+            "RNA-seq": "",
+            "RPPA": "",
+            "RiccardiandAblonscales": "",
+            "SNParray": "",
+            "SUSHI": "",
+            "Sangersequencing": "",
+            "SocialResponsivenessScale": "",
+            "SocialResponsivenessScale,SecondEdition": "",
+            "Tcellreceptorrepertoiresequencing": "",
+            "TIDE": "",
+            "TMTquantitation": "",
+            "TriKineticsactivitymonitoring": "",
+            "VonFreytest": "",
+            "Activeavoidancelearningbehaviorassay": "",
+            "Array": "",
+            "Atomicforcemicroscopy": "",
+            "Autoradiography": "",
+            "Bisulfitesequencing": "",
+            "Bloodchemistrymeasurement": "",
+            "BluenativePAGE": "",
+            "Bodysizetraitmeasurement": "",
+            "Bonehistomorphometry": "",
+            "Brightfieldmicroscopy": "",
+            "CAMP-GloMaxAssay": "",
+            "Calciumretentioncapacityassay": "",
+            "Cellcompetition": "",
+            "Cellcount": "",
+            "Cellpainting": "",
+            "Cellproliferation": "",
+            "Cellviabilityassay": "",
+            "Clinicaldata": "",
+            "CNF-Skindex": "",
+            "Cognitiveassessment": "",
+            "Combinationlibraryscreen": "",
+            "Combinationscreen": "",
+            "ComplexIIenzymeactivityassay": "",
+            "Compoundscreen": "",
+            "Contextualconditioningbehaviorassay": "",
+            "ConventionalMRI": "",
+            "Children'sDermatologyLifeQualityIndexQuestionnaire": "",
+            "Differentialscanningcalorimetry": "",
+            "Dynamiclightscattering": "",
+            "Electrochemiluminescence": "",
+            "Electrophoreticlightscattering": "",
+            "Elevatedplusmazetest": "",
+            "FACE-QAppearance-relatedDistress": "",
+            "Flowcytometry": "",
+            "Focusformingassay": "",
+            "FunctionalMRI": "",
+            "Gaitmeasurement": "",
+            "Gelfiltrationchromatography": "",
+            "Gelpermeationchromatography": "",
+            "Genotyping": "",
+            "Highcontentscreen": "",
+            "Highfrequencyultrasound": "",
+            "High-performanceliquidchromatography/tandemmassspectrometry": "",
+            "Immunoassay": "",
+            "Immunocytochemistry": "",
+            "Immunofluorescence": "",
+            "Immunohistochemistry": "",
+            "Insilicosynthesis": "",
+            "Invitrotumorigenesis": "",
+            "InvivoPDXviability": "",
+            "Invivobioluminescence": "",
+            "Invivotumorgrowth": "",
+            "Jumpinglibrary": "",
+            "Labelfreemassspectrometry": "",
+            "Laserspeckleimaging": "",
+            "Lightscatteringassay": "",
+            "Liquidchromatography-electrochemicaldetection": "",
+            "Liquidchromatography/massspectrometry": "",
+            "Liquidchromatography/tandemmassspectrometry": "",
+            "LncRNA-seq": "",
+            "Localfieldpotentialrecording": "",
+            "Longtermpotentiationassay": "",
+            "MRNAcounts": "",
+            "Magneticresonanceangiography": "",
+            "Magneticresonancespectroscopy": "",
+            "Magnetization-PreparedRapidGradientEchoMRI": "",
+            "Massspectrometry": "",
+            "Massivelyparallelreporterassay": "",
+            "Metabolicscreening": "",
+            "Methylationarray": "",
+            "MiRNAarray": "",
+            "MiRNA-seq": "",
+            "Microrheology": "",
+            "Skindex-16": "",
+            "Multi-electrodearray": "",
+            "Nanoparticletrackinganalysis": "",
+            "NanoStringnCounterAnalysisSystem": "",
+            "N-backtask": "",
+            "Neuropsychologicalassessment": "",
+            "Nextgenerationtargetedsequencing": "",
+            "Noveltyresponsebehaviorassay": "",
+            "Openfieldtest": "",
+            "Opticaltomography": "",
+            "Opticalcoherencetomography": "",
+            "Optokineticreflexassay": "",
+            "Oscillatoryrheology": "",
+            "OxBS-seq": "",
+            "Oxygenconsumptionassay": "",
+            "Patternelectroretinogram": "",
+            "Perineurialcellthickness": "",
+            "PharmocokineticADMEassay": "",
+            "Phase-contrastmicroscopy": "",
+            "Photograph": "",
+            "Polymerasechainreaction": "",
+            "Polysomnography": "",
+            "Positronemissiontomography": "",
+            "PROMISCognitiveFunction": "",
+            "Proximityextensionassay": "",
+            "Puretoneaverage": "",
+            "QuantitativePCR": "",
+            "Questionnaire": "",
+            "Reactiveoxygenspeciesassay": "",
+            "Reportergeneassay": "",
+            "Rheometry": "",
+            "Ribo-seq": "",
+            "Rotarodperformancetest": "",
+            "SandwichELISA": "",
+            "ScCGI-seq": "",
+            "Scale": "",
+            "SaferSeqS": "",
+            "Singlemoleculedrugscreenassay": "",
+            "Single-cellRNA-seq": "",
+            "SinglecellATAC-seq": "",
+            "Single-nucleusRNA-seq": "",
+            "Smallmoleculelibraryscreen": "",
+            "Sorbitoldehydrogenaseactivitylevelassay": "",
+            "Spatialfrequencydomainimaging": "",
+            "Spatialtranscriptomics": "",
+            "Statichistomorphometry": "",
+            "Staticlightscattering": "",
+            "Survival": "",
+            "Targetedexomesequencing": "",
+            "Tractionforcemicroscopy": "",
+            "Twinspotassay": "",
+            "Ultrahigh-performanceliquidchromatography/tandemmassspectrometry": "",
+            "Westernblot": "",
+            "Wholeexomesequencing": "",
+            "Wholegenomesequencing": "",
+            "Whole-cellpatchclamp": "",
+            "Wordrecognitionscore": "",
+            "STRprofile": ""
+        }
+    },
+    "BisulfiteConversionKitID": {
+        "column_description": "Name of kit used in bisulfite conversion.",
+        "value_data": {}
+    },
+    "ChipPosition": {
+        "column_description": "User-specified identifier for the specific position on the chip that the sample was loaded into to perform the methylation microarray.",
+        "value_data": {}
+    },
+    "Assay": {
+        "column_description": "The technology used to generate the data in this file.",
+        "value_data": {
+            "2DAlamarBlueabsorbance": "",
+            "2DAlamarBluefluorescence": "",
+            "3Dconfocalimaging": "",
+            "3Delectronmicroscopy": "",
+            "3Dimaging": "",
+            "3Dmicrotissueviability": "",
+            "Actigraphy": "",
+            "AlgometRxNociometer": "",
+            "Auditorybrainstemresponse": "",
+            "ATAC-seq": "",
+            "ATPaseactivityassay": "",
+            "BrdUproliferationassay": "",
+            "CAPP-seq": "",
+            "CUT&RUN": "",
+            "ChIP-seq": "",
+            "ChildBehaviorChecklistforAges1.5-5": "",
+            "ChildBehaviorChecklistforAges6-18": "",
+            "CODEX": "",
+            "Confocalmicroscopy": "",
+            "Corsiblocks": "",
+            "Currentclampassay": "",
+            "DiffusionMRI": "",
+            "Distortionproductotoacousticemissions": "",
+            "DNAopticalmapping": "",
+            "ELISA": "",
+            "ERRbisulfitesequencing": "",
+            "EdUproliferationassay": "",
+            "FIA-MSMS": "",
+            "FLIPRhigh-throughputcellularscreening": "",
+            "FluorescenceInSituHybridization": "",
+            "Focusgroup": "",
+            "FTIRspectroscopy": "",
+            "HI-C": "",
+            "HPLC": "",
+            "Interview": "",
+            "ISO-seq": "",
+            "MIB/MS": "",
+            "Matrigel-basedtumorigenesisassay": "",
+            "MudPIT": "",
+            "NIHToolbox": "",
+            "NOMe-seq": "",
+            "RNAarray": "",
+            "RNA-seq": "",
+            "RPPA": "",
+            "RiccardiandAblonscales": "",
+            "SNParray": "",
+            "SUSHI": "",
+            "Sangersequencing": "",
+            "SocialResponsivenessScale": "",
+            "SocialResponsivenessScale,SecondEdition": "",
+            "Tcellreceptorrepertoiresequencing": "",
+            "TIDE": "",
+            "TMTquantitation": "",
+            "TriKineticsactivitymonitoring": "",
+            "VonFreytest": "",
+            "Activeavoidancelearningbehaviorassay": "",
+            "Array": "",
+            "Atomicforcemicroscopy": "",
+            "Autoradiography": "",
+            "Bisulfitesequencing": "",
+            "Bloodchemistrymeasurement": "",
+            "BluenativePAGE": "",
+            "Bodysizetraitmeasurement": "",
+            "Bonehistomorphometry": "",
+            "Brightfieldmicroscopy": "",
+            "CAMP-GloMaxAssay": "",
+            "Calciumretentioncapacityassay": "",
+            "Cellcompetition": "",
+            "Cellcount": "",
+            "Cellpainting": "",
+            "Cellproliferation": "",
+            "Cellviabilityassay": "",
+            "Clinicaldata": "",
+            "CNF-Skindex": "",
+            "Cognitiveassessment": "",
+            "Combinationlibraryscreen": "",
+            "Combinationscreen": "",
+            "ComplexIIenzymeactivityassay": "",
+            "Compoundscreen": "",
+            "Contextualconditioningbehaviorassay": "",
+            "ConventionalMRI": "",
+            "Children'sDermatologyLifeQualityIndexQuestionnaire": "",
+            "Differentialscanningcalorimetry": "",
+            "Dynamiclightscattering": "",
+            "Electrochemiluminescence": "",
+            "Electrophoreticlightscattering": "",
+            "Elevatedplusmazetest": "",
+            "FACE-QAppearance-relatedDistress": "",
+            "Flowcytometry": "",
+            "Focusformingassay": "",
+            "FunctionalMRI": "",
+            "Gaitmeasurement": "",
+            "Gelfiltrationchromatography": "",
+            "Gelpermeationchromatography": "",
+            "Genotyping": "",
+            "Highcontentscreen": "",
+            "Highfrequencyultrasound": "",
+            "High-performanceliquidchromatography/tandemmassspectrometry": "",
+            "Immunoassay": "",
+            "Immunocytochemistry": "",
+            "Immunofluorescence": "",
+            "Immunohistochemistry": "",
+            "Insilicosynthesis": "",
+            "Invitrotumorigenesis": "",
+            "InvivoPDXviability": "",
+            "Invivobioluminescence": "",
+            "Invivotumorgrowth": "",
+            "Jumpinglibrary": "",
+            "Labelfreemassspectrometry": "",
+            "Laserspeckleimaging": "",
+            "Lightscatteringassay": "",
+            "Liquidchromatography-electrochemicaldetection": "",
+            "Liquidchromatography/massspectrometry": "",
+            "Liquidchromatography/tandemmassspectrometry": "",
+            "LncRNA-seq": "",
+            "Localfieldpotentialrecording": "",
+            "Longtermpotentiationassay": "",
+            "MRNAcounts": "",
+            "Magneticresonanceangiography": "",
+            "Magneticresonancespectroscopy": "",
+            "Magnetization-PreparedRapidGradientEchoMRI": "",
+            "Massspectrometry": "",
+            "Massivelyparallelreporterassay": "",
+            "Metabolicscreening": "",
+            "Methylationarray": "",
+            "MiRNAarray": "",
+            "MiRNA-seq": "",
+            "Microrheology": "",
+            "Skindex-16": "",
+            "Multi-electrodearray": "",
+            "Nanoparticletrackinganalysis": "",
+            "NanoStringnCounterAnalysisSystem": "",
+            "N-backtask": "",
+            "Neuropsychologicalassessment": "",
+            "Nextgenerationtargetedsequencing": "",
+            "Noveltyresponsebehaviorassay": "",
+            "Openfieldtest": "",
+            "Opticaltomography": "",
+            "Opticalcoherencetomography": "",
+            "Optokineticreflexassay": "",
+            "Oscillatoryrheology": "",
+            "OxBS-seq": "",
+            "Oxygenconsumptionassay": "",
+            "Patternelectroretinogram": "",
+            "Perineurialcellthickness": "",
+            "PharmocokineticADMEassay": "",
+            "Phase-contrastmicroscopy": "",
+            "Photograph": "",
+            "Polymerasechainreaction": "",
+            "Polysomnography": "",
+            "Positronemissiontomography": "",
+            "PROMISCognitiveFunction": "",
+            "Proximityextensionassay": "",
+            "Puretoneaverage": "",
+            "QuantitativePCR": "",
+            "Questionnaire": "",
+            "Reactiveoxygenspeciesassay": "",
+            "Reportergeneassay": "",
+            "Rheometry": "",
+            "Ribo-seq": "",
+            "Rotarodperformancetest": "",
+            "SandwichELISA": "",
+            "ScCGI-seq": "",
+            "Scale": "",
+            "SaferSeqS": "",
+            "Singlemoleculedrugscreenassay": "",
+            "Single-cellRNA-seq": "",
+            "SinglecellATAC-seq": "",
+            "Single-nucleusRNA-seq": "",
+            "Smallmoleculelibraryscreen": "",
+            "Sorbitoldehydrogenaseactivitylevelassay": "",
+            "Spatialfrequencydomainimaging": "",
+            "Spatialtranscriptomics": "",
+            "Statichistomorphometry": "",
+            "Staticlightscattering": "",
+            "Survival": "",
+            "Targetedexomesequencing": "",
+            "Tractionforcemicroscopy": "",
+            "Twinspotassay": "",
+            "Ultrahigh-performanceliquidchromatography/tandemmassspectrometry": "",
+            "Westernblot": "",
+            "Wholeexomesequencing": "",
+            "Wholegenomesequencing": "",
+            "Whole-cellpatchclamp": "",
+            "Wordrecognitionscore": "",
+            "STRprofile": ""
+        }
+    },
+    "StudyFileviewId": {
+        "column_description": "Links a Synapse project to its fileview.",
+        "value_data": {}
+    },
+    "AverageReadLength": {
+        "column_description": "Average read length collected from samtools",
+        "value_data": {}
+    },
+    "GliomaOrEpendymoma": {
+        "column_description": "Characterization of the manifestation of Glioma or ependymoma.",
+        "value_data": {
+            "Notimaged": "",
+            "Absentbyimaging": "",
+            "Present": "",
+            "Unknown": ""
+        }
+    },
+    "RelatedStudies": {
+        "column_description": "Studies similar to the current study. Subproperty of `relatedResource`.",
+        "value_data": {}
+    },
+    "Platform": {
+        "column_description": "A sequencing platform, microscope, spectroscope/plate reader, or other platform for collecting data.",
+        "value_data": {
+            "7TBrukerBiospec": "",
+            "10xVisiumSpatialGeneExpression": "",
+            "2DCellTiter-Glo": "",
+            "2DIncucyte": "",
+            "AffymetrixGenome-WideHumanSNP5.0Array": "",
+            "AffymetrixGenome-WideHumanSNP6.0Array": "",
+            "AffymetrixHumanGene1.0STArray": "",
+            "AffymetrixHumanGenomeU133Plus2.0Array": "",
+            "AffymetrixU133AB": "",
+            "Agilent44Karray": "",
+            "BDFACSCalibur": "",
+            "BDFACSymphony": "",
+            "BGISEQ-500": "",
+            "BionanoIrys": "",
+            "Caliper": "",
+            "CherryImagingFACEPlatform": "",
+            "CherryImagingTRACEPlatform": "",
+            "ChromiumX": "",
+            "EnVision2103MultiplateReader": "",
+            "GEDiscoveryMR7503T": "",
+            "GEOptimaMR450W1.5T": "",
+            "GESignaHDxt1.5T": "",
+            "GESignaGenesis1.5T": "",
+            "GESignaHDxt3T": "",
+            "GESignaPremier3T": "",
+            "GESignaExcite1.5T": "",
+            "HitachiEchelon1.5T": "",
+            "HitachiOasis1.2T": "",
+            "IVISSpectrumInVivoImagingSystem": "",
+            "Illumina1M": "",
+            "IlluminaGenomeAnalyzerIIx": "",
+            "IlluminaHiSeq2000": "",
+            "IlluminaHiSeq2500": "",
+            "IlluminaHiSeq3000": "",
+            "IlluminaHiSeq4000": "",
+            "IlluminaHiSeqX": "",
+            "IlluminaHuman660W-Quadv1.0BeadChip": "",
+            "IlluminaHumanHap300": "",
+            "IlluminaHumanMethylation450": "",
+            "IlluminaHumanOmni1-Quadv1.0": "",
+            "IlluminaHumanOmniExpress-24v1.0BeadChip": "",
+            "IlluminaHumanOmniExpress-24v1.2BeadChip": "",
+            "IlluminaInfiniumMethylationEPICBeadChipv1.0(850k)": "",
+            "IlluminaInfiniumMethylationEPICBeadChipv2.0(935k)": "",
+            "IlluminaMiSeq": "",
+            "IlluminaMouseWG-6v2.0expressionbeadchip": "",
+            "IlluminaNextSeq1000": "",
+            "IlluminaNextSeq2000": "",
+            "IlluminaNextSeq500": "",
+            "IlluminaNextSeq550": "",
+            "IlluminaNovaSeq6000": "",
+            "IlluminaNovaSeqX": "",
+            "IlluminaNovaSeqXPlus": "",
+            "IlluminaOmni2pt5M": "",
+            "IlluminaOmni5M": "",
+            "IlluminaWholeGenomeDASL": "",
+            "Illuminah650": "",
+            "InfiniumHumanOmniExpressExome": "",
+            "LI-COROdysseyCLx": "",
+            "LTQOrbitrapXL": "",
+            "LeicaAperioAT2": "",
+            "LeicaMZ16": "",
+            "LeicaS9Stereomicroscope": "",
+            "LifeVizInfinitySystem": "",
+            "LifeVizMicroSystem": "",
+            "MGIT-series": "",
+            "MalvernZetasizer": "",
+            "NanoFCM": "",
+            "NanoStringHumannCounterPanCancerIO360Panel": "",
+            "NanostringCounter": "",
+            "NanostringGeoMx": "",
+            "NotApplicable": "",
+            "OlympusDP80": "",
+            "OlympusIX73": "",
+            "OrbitrapFusionLumosTribrid": "",
+            "OtherPlatform": "",
+            "OxfordNanopore": "",
+            "PacBioRSII": "",
+            "PacBioSequelIISystem": "",
+            "PacBioSequelIIeSystem": "",
+            "Pannoramic250Flash": "",
+            "Perlegen300Karray": "",
+            "PhilipsAchieva1.5T": "",
+            "PhilipsAchieva3T": "",
+            "PhilipsInteraAchieva3T": "",
+            "PhilipsIngenia1.5T": "",
+            "PhilipsIngenia3T": "",
+            "PhilipsPanorama1.0T": "",
+            "PromegaGloMaxDiscover": "",
+            "QExativeHF": "",
+            "Scale": "",
+            "SiemensAvanto1.5T": "",
+            "SiemensAvantoFit1.5T": "",
+            "SiemensMagnetomAera1.5T": "",
+            "SiemensMagnetomEspree1.5T": "",
+            "SiemensMagnetomPrisma3T": "",
+            "SiemensMagnetomSkyra3T": "",
+            "SiemensMagnetomTrio3T": "",
+            "SiemensMagnetomVerio3T": "",
+            "SiemensMagnetomPrismaFit3T": "",
+            "SpectramaxMSeries": "",
+            "TOOsonixSystemONE-M": "",
+            "ToshibaVantageTitan1.5T": "",
+            "VarioskanLUX": "",
+            "VectraH13DImagingSystem": "",
+            "VentanaBenchmarkXT": "",
+            "Vevo3100ImagingSystem": "",
+            "XF24ExtracellularFluxAnalyzer": "",
+            "ZeissLSM": "",
+            "ZeissLSM700": "",
+            "ZeissLSM980": "",
+            "ZenoElectronicWalkway": "",
+            "ZetaView": ""
+        }
+    },
+    "StudyLeads": {
+        "column_description": "Individuals with lead roles in a study.",
+        "value_data": {}
+    },
+    "Template": {
+        "column_description": "A collection of fields representing some entity.",
+        "value_data": {}
+    },
+    "BiospecimenTemplate": {
+        "column_description": "Specimen-level data, whether from human or animal.",
+        "value_data": {}
+    },
+    "PartialTemplate": {
+        "column_description": "A template for collecting a subset of contextual data; not intended to be a standalone template but rather a subdocument.",
+        "value_data": {}
+    },
+    "PortalStudy": {
+        "column_description": "//nf.synapse.org/Explore/Studies.\n",
+        "value_data": {}
+    },
+    "Institutions": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "GrantStartDate": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "GrantEndDate": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "EmbargoEndDate": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "HumanCohortTemplate": {
+        "column_description": "Data of biosamples from human patients. Adapted from Table 2 of http://nrs.harvard.edu/urn-3:HUL.InstRepos:32725809. This template should be used when biosamples are from NF patients to provides a more valuable characterization and make additional gene-phenotype insights possible.\n",
+        "value_data": {}
+    },
+    "Lenticularopacity": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "ProcessedMergedDataTemplate": {
+        "column_description": "Further processed data with multiple samples aggregated into one file. This may be also be known as level-4 data. Unlike level-2 and level-3 data, individual-level attributes such as age and sex are no longer surfaced on the data file directly.\n",
+        "value_data": {}
+    },
+    "AnimalIndividualTemplate": {
+        "column_description": "Template for non-human individual-level data.",
+        "value_data": {}
+    },
+    "PortalDataset": {
+        "column_description": "//nf.synapse.org/Explore/Datasets. \n",
+        "value_data": {}
+    },
+    "VisualizeDataOn": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "IncludedInDataCatalog": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CTF": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "SMN": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CCBY-ND": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "UNKNOWN": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Genesymbol": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CC-0": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "GRCh38": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "LowGradeGlioma": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "MPNST": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Knockout": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Atrophy": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Cognition": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "GRCh37": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Drugtoxicity": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "GFF": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "MMUL1.0": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Braindevelopment": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Independent": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CCBY-NC-SA": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "QualityofLife": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "GRCh38VerilyV1": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "ODC-BY": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "JMML": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Knockdown": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "ODC-ODbL": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Druginteraction": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "HighGradeGlioma": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CCBY-SA": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Chemicaldescriptor": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "NTAP": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Drugresistance": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CCBY-NC": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CC-BY": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Memory": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Pain": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Genefunction": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "ODC-PDDL": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "RESTRICTED-USE": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Non-targetingcontrol": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Overexpression": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "CCBY-NC-ND": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "PublicDomain": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "VisionLoss": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "Behavioral": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "R816X": {
+        "column_description": "TBD",
+        "value_data": {}
+    },
+    "HRC": {
+        "column_description": "TBD",
+        "value_data": {}
+    }
+}

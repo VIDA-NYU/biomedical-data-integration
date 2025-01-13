@@ -6,6 +6,7 @@ from bdikit.standards.base import BaseStandard
 
 class Standards(Enum):
     GDC = ("gdc", "bdikit.standards.gdc.GDC")
+    SYNAPSE = ("synapse", "bdikit.standards.synapse.Synapse")
 
     def __init__(self, standard_name: str, standard_path: str):
         self.standard_name = standard_name

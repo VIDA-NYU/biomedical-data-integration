@@ -16,6 +16,7 @@ BUILTIN_MODELS_BOX_URL = {
     "cl-reducer-v0.1": "https://nyu.box.com/shared/static/hc4qxzbuxz0uoynfwy4pe2yxo5ch6xgm.pt",
     "bdi-cl-v0.2": "https://nyu.box.com/shared/static/1vdc28kzbpoj6ey95bksaww541p9gj31.pt",
     "magneto-gdc-v0.1": "https://nyu.box.com/shared/static/140g2rq1izc1wqs1ssrml6jzag3qa0mu.pth",
+    "magneto-synapse-v0.1": "https://nyu.box.com/shared/static/d2g8ax3jggnsl1doseipvki3q0ajpm8c.pth",
 }
 
 BDIKIT_EMBEDDINGS_CACHE_DIR = os.path.join(BDIKIT_CACHE_DIR, "embeddings")
