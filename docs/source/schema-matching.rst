@@ -15,6 +15,18 @@ To see how to use these methods, please refer to the documentation of :py:func:`
     * - Method
       - Class
       - Description
+    * - ``magneto_zs_bp``
+      - :class:`~bdikit.schema_matching.topk.magneto.Magneto`
+      - | Uses a zero-shot small language model as retriever with the bipartite algorithm as reranker in Magneto.
+    * - ``magneto_ft_bp``
+      - :class:`~bdikit.schema_matching.topk.magneto.MagnetoFT`
+      - | Uses a fine-tuned small language model as retriever with the bipartite algorithm as reranker in Magneto.
+    * - ``magneto_zs_llm``
+      - :class:`~bdikit.schema_matching.topk.magneto.MagnetoGPT`
+      - | Uses a zero-shot small language model as retriever with a large language model as reranker in Magneto.
+    * - ``magneto_ft_llm``
+      - :class:`~bdikit.schema_matching.topk.magneto.MagnetoFTGPT`
+      - | Uses a fine-tuned small language model as retriever with a large language model as reranker in Magneto.
     * - ``ct_learning``
       - :class:`~bdikit.schema_matching.one2one.contrastivelearning.ContrastiveLearningSchemaMatcher`
       - | Uses a contrastive (CT) learning model to learn embeddings for columns and retrieves the best match most similar columns using the cosine similarity between the column embeddings.

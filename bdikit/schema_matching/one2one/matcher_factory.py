@@ -38,6 +38,25 @@ class SchemaMatchers(Enum):
         "max_val_sim",
         "bdikit.schema_matching.one2one.maxvalsim.MaxValSimSchemaMatcher",
     )
+    MAGNETO = (
+        "magneto_zs_bp",
+        "bdikit.schema_matching.topk.magneto.Magneto",
+    )
+
+    MAGNETO_FT = (
+        "magneto_ft_bp",
+        "bdikit.schema_matching.topk.magneto.MagnetoFT",
+    )
+
+    MAGNETO_GPT = (
+        "magneto_zs_llm",
+        "bdikit.schema_matching.topk.magneto.MagnetoGPT",
+    )
+
+    MAGNETO_FTGPT = (
+        "magneto_ft_llm",
+        "bdikit.schema_matching.topk.magneto.MagnetoFTGPT",
+    )
 
     def __init__(self, matcher_name: str, matcher_path: str):
         self.matcher_name = matcher_name

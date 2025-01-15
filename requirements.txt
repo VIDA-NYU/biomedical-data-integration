@@ -11,3 +11,4 @@ scipy<1.13
 matplotlib<3.9
 panel!=1.4.3
 nltk>=3.9.1
+magneto-python
